@@ -1,0 +1,815 @@
+@import 'country-flags.css';
+@import 'mobile.css';
+
+@font-face {
+    font-family: Korolev;
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/korolev-medium-webfont.ttf');
+}
+
+@font-face {
+    font-family: Korolev;
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/korolev-bold-webfont.ttf');
+}
+
+/*-- tooltip ---*/
+
+.tooltip_templates {
+    display: none;
+}
+
+.tooltip-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 80px;
+    font-family: "Open Sans";
+}
+
+.team-entry-date {
+    padding: 10px 1px 10px 2px;
+    border-bottom: 1px solid #9F6960;
+    color: #DA8775;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.team-votes-position {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 1px 10px 2px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.team-votes-position span {
+    font-size: 11px;
+}
+
+.teams-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams-header-content {
+    width: 75%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.header.twitch_online, .header-gradient.twitch_online, .header-shapes.twitch_online {
+    height: 550px;
+}
+
+/* Modal & backdrop css */
+
+h2 {
+    margin-top: 0;
+}
+
+#modal-backdrop {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: "Open Sans";
+    color: #FFF;
+}
+
+.gleam-modal {
+    z-index: 1050;
+    position: fixed;
+    background: #C93A1B;
+    border-radius: 4px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 40px;
+    height: 90%;
+}
+
+.gleam-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 90%;
+}
+
+iframe, #loading-text {
+    width: 360px;
+    height: 100%;
+}
+
+#loading-text {
+    text-align: center;
+    line-height: 228px;
+}
+
+#close-modal-btn {
+    width: 200px;
+    height: 50px;
+    background: #CA633E;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.banner, .center-info, .bottom-info, .twitch-embed-container {
+    z-index: 100;
+    position: absolute;
+}
+
+.header {
+    width: 100%;
+    height: 400px;
+    background: url(./images/pubg-invitational/pl-header-background.png) no-repeat center;
+    font-family: "Open Sans";
+    color: #FFF;
+}
+
+.banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+    transition: all 0.5s ease;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(20, 1, 37, 0) 0%, #140125 50.04%, rgba(20, 1, 37, 0) 100%);
+}
+
+.banner.dark {
+    background-color: rgba(22, 5, 2, 0.9);
+    transition: all 0.5s ease;
+}
+
+.bits-logo {
+    background: url(./images/bitsII/IMG_Logo_Bits_Corner.png) no-repeat;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.menu-lines {
+    display: none;
+}
+
+.nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.nav-menu a:hover {
+    text-decoration: none;
+}
+
+.nav {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 30px;
+    height: 100%;
+    color: #FFF;
+    font-family: Korolev;
+    width: 225px;
+    box-sizing: border-box;
+}
+
+.nav.active {
+    border-bottom: 2px solid #E94434;
+    box-shadow: 0 1px 1px -1px rgba(255, 255, 255, 0.05), 0 1px 1px -1px #E66F4B;
+}
+
+.fb-logo {
+    background: url(./images/bitsII/IMG_logo_Firstblood_Corner.png) no-repeat right;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+}
+
+.fb-logo-mobile {
+    height: 0;
+}
+
+/* header-center-info */
+
+.pubg-logo {
+    background: url(./images/pubg-invitational/Logo-PI.png) no-repeat center;
+    height: 206px;
+    width: 240px;
+    background-size: 124px;
+}
+
+.pubg-logo.mobile {
+    display: none;
+}
+
+.center-info {
+    width: 100%;
+    top: 105px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.watch-on-twitch {
+    height: 30px;
+    width: 283px;
+    border-radius: 8px;
+    background-color: #FFF;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.twitch-play-button {
+    height: 30px;
+    width: 54px;
+    border-radius: 4px;
+    background-color: #4B236E;
+    background: #4B236E url(./images/pubg-invitational/Play_icon.svg) no-repeat center;
+}
+
+.watch-on-twitch-text {
+    color: #4B236E;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.headline-info {
+    margin-left: -30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.headline-date {
+    line-height: 16px;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.headline-text {
+    font-family: Korolev;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #140125;
+}
+
+.headline-description {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* header-bottom-info */
+
+.bottom-info {
+    top: 260px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 86px;
+}
+
+.action-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 527px;
+}
+
+a.action-button {
+    color: #FFF;
+}
+
+.action-button {
+    height: 50px;
+    width: 245px;
+    border-radius: 4px;
+    background-color: #C93A1B;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.action-button.register:hover {
+    background-color: #CE4E32;
+}
+
+#vote-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.action-button.transparent {
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+
+.or {
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.countdown,
+#countdown-days,
+#countdown-hours,
+#countdown-minutes {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    color: #FFF;
+}
+
+.countdown #countdown-desc {
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* MAIN INFO */
+
+.main-info {
+    position: relative;
+    font-family: "Open Sans";
+    background: -webkit-gradient(linear, left bottom, left top, from(#140125), to(#2F1E3E));
+    background: -webkit-linear-gradient(180deg, #140125 0%, #2F1E3E 100%);
+    background: -o-linear-gradient(180deg, #140125 0%, #2F1E3E 100%);
+    background: linear-gradient(180deg, #140125 0%, #2F1E3E 100%);
+}
+
+
+.main-info-container {
+    max-width: 1024px;
+    width: 64%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 846px;
+}
+
+.title-mobile {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.title-mobile {
+    display: none;
+}
+
+.content-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.content-row.no-border {
+    border: none;
+}
+
+
+.participants {
+    width: 830px;
+    max-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.participants.opened
+{
+    max-height: 2000px;
+    transition: max-height 1s ease-in;
+}
+
+.team {
+    height: 155px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(67, 58, 74, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.team:first-child {
+    margin-left: 0;
+}
+
+.team:nth-child(5n) {
+    margin-right: 0;
+}
+
+.team:nth-child(5n+6) {
+    margin-left: 0;
+}
+
+.show-all,
+.close-show-all {
+    color: #C53224;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.organiser-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.organiser-info-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 120px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.fb-logo-lg {
+    background: url(./images/bitsII/IMG_logo_Firstblood_Large_Desktop.png) no-repeat center;
+    width: 225px;
+    height: 46px;
+}
+
+.site-link {
+    color: #C93A1B;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.site-link.mobile {
+    display: none;
+}
+
+.organiser-info-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.organiser-info-desc {
+    opacity: 0.6;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.no-team {
+    margin: 10px auto 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-info {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    order: 5;
+    height: 100px;
+    background-color: #210F31;
+    width: 100%;
+}
+
+.social-accounts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.twitter-icon {
+    background: url(./images/bitsII/socials/Icon_Twitter_blank.svg) no-repeat center;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.twitch-icon {
+    background: url(./images/bitsII/socials/Icon_Twitch_blank.svg) no-repeat center;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.facebook-icon {
+    background: url(./images/bitsII/socials/Icon_Facebook_blank.svg) no-repeat center;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.youtube-icon {
+    background: url(./images/bitsII/socials/Icon_Youtube.svg) no-repeat center;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+}
+
+.disclaimer {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 9px;
+    line-height: 20px;
+    text-align: center;
+    width: 540px;
+    padding: 0 35px;
+}
+
+/* TEAMS */
+
+.class-desc {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: center;
+    margin: 10px;
+}
+
+.line-separator {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.teams {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+}
+
+.team-card-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 40px;
+    margin-left: 15px;
+    flex-grow: 1;
+}
+
+.country-flag {
+    height: 13px;
+    width: 22px;
+    background-size: contain;
+    background-position: left;
+}
+
+.team-name {
+    color: #FFFFFF;
+    font-family: Korolev;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.team-logo {
+    width: 100px;
+    height: 100px;
+    background: #FFF;
+}
+
+.team-card-vote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    height: 55px;
+}
+
+.vote-button {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    width: 85px;
+    border-radius: 2px;
+    background-color: #C93A1B;
+    cursor: pointer;
+}
+
+.vote-button:hover {
+    background-color: #CE4E32;
+}
+
+.votes {
+    color: #FFFFFF;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.votes span {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.twitch-embed-container {
+    top: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 258px;
+}
+
+.registration_closed {
+    margin-top: 25px;
+}
+
+
+
