@@ -6,7 +6,42 @@ var teams = require('../data/teams.json');
 var componentCreator = require('./components');
 
 
-$(document).ready(function(){
+$(document).ready(function () {
+
+    var $window = $(window);
+
+    var onMobile;
+    var onTablet;
+
+    function checkWidth() {
+        var windowsize = screen.width;
+        if (windowsize <= 767) {
+            onMobile = true;
+            onTablet = false;
+        } else if (windowsize <= 1024) {
+            onMobile = false;
+            onTablet = true;
+        } else {
+            onTablet = false;
+            onMobile = false;
+        }
+    }
+
+    // Execute on load
+    checkWidth();
+    // Bind event listener
+    $(window).resize(checkWidth);
+
+    if (onMobile) {
+
+        $('.site-link-mobile').removeClass('hidden');
+    }
+
+    if (onTablet) {
+        console.log('ontablet');
+        $('.footer-info').addClass('hidden');
+        $('.footer-info-tablet-layout').removeClass('hidden');
+    }
 
     var mobileMenuOpen = false;
 
@@ -18,8 +53,8 @@ $(document).ready(function(){
         $(".mobile-menu").addClass('hidden');
     }
 
-    $(".menu-lines").click(function() {
-        if(!mobileMenuOpen) {
+    $(".menu-lines").click(function () {
+        if (!mobileMenuOpen) {
             $(".mobile-menu").removeClass('hidden');
             mobileMenuOpen = true;
         } else {
@@ -28,7 +63,7 @@ $(document).ready(function(){
         }
     });
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll >= 25) {
             $(".banner").addClass("dark");
@@ -45,24 +80,35 @@ $(document).ready(function(){
         if (teams.length > 0) {
             $('.no-team').addClass('hidden');
 
-            componentCreator.processTeams(teams);
+            var showedTeams = 5;
+
+            if (onTablet) {
+                showedTeams = 4;
+            }
+
+            if (onMobile) {
+                showedTeams = 3;
+                $('.title').removeClass('hidden');
+            }
+
+            componentCreator.processTeams(teams, false, showedTeams);
 
 
-            if (teams.length > 5) {
-                var additional = teams.length - 5;
+            if (teams.length > showedTeams) {
+                var additional = teams.length - showedTeams;
                 $('.show-all').removeClass('hidden')
                     .text("Show all teams (+" + additional + ")")
-                    .click(function() {
+                    .click(function () {
                         $('.close-show-all').removeClass('hidden');
                         $('.show-all').addClass('hidden');
-                        componentCreator.processTeams(teams, true);
+                        componentCreator.processTeams(teams, true, showedTeams);
                         $('.participants').addClass('opened');
                     });
 
-                $('.close-show-all').click(function() {
+                $('.close-show-all').click(function () {
                     $('.show-all').removeClass('hidden');
                     $('.close-show-all').addClass('hidden');
-                    componentCreator.processTeams(teams);
+                    componentCreator.processTeams(teams, false, showedTeams);
                     $('.participants').removeClass('opened');
                 });
             }

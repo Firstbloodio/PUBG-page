@@ -10,50 +10,63 @@ and (max-device-width: 1024px)
 
     .main-info-container {
         min-width: 0 !important;
-        width: 85% !important;
-    }
-
-    .card {
-        max-width: 45%;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    .bp-logo, .roccat-logo, .purse-logo {
-        height: 105px !important;
-        width: 25% !important;
-        background-size: contain !important;
-    }
-
-    .content-row.sponsors {
-        padding-bottom: 40px !important;
-    }
-
-    .footer-info {
-        width: 97% !important;
-        padding-bottom: 50px !important;
+        width: 660px !important;
     }
 
     .social-accounts {
-        width: 47% !important;
+        width: 136px !important;
     }
 
-    .content-row.teams {
-        padding-top: 20px;
+    .participants {
+        justify-content: center;
     }
 
-    .teams {
-        margin: 30px 0 0 !important;
+    .organiser-info-desc {
+        text-align: left !important;
+    }
+
+    .tf-top {
+        display: flex;
+        justify-content: space-between;
+        width: 660px;
+    }
+
+    .footer-info-tablet-layout {
+        margin: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        order: 5;
+        height: 100px;
+        background-color: #210F31;
+        padding: 30px;
     }
 
     .disclaimer {
-        height: auto !important;
-        padding: 15px 20%;
-        line-height: 12px !important;
-
-        position: static !important;
-        width: auto !important
+        width: 660px !important;
+        padding: 0 !important;
+        margin-top: 20px;
     }
+
+    .team {
+        margin: 10px !important;
+    }
+
+    .team:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    .team:nth-child(4n+5) {
+        margin-left: 0;
+    }
+
 }
 
 
@@ -119,7 +132,7 @@ and (max-device-width: 767px)
         height: 5px;
         width: 40px;
         border-radius: 2px;
-        background-color: #FFF;
+        background-color: #C53224;
     }
 
     .headline-text {
@@ -129,22 +142,8 @@ and (max-device-width: 767px)
         margin: auto !important;
     }
 
-    .bits-badge {
-        display: none;
-    }
-
-
-    .bits-badge.mobile {
-        display: block !important;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 150px;
-        width: 150px;
-        margin: auto;
-    }
-
     .headline-info {
-        margin: 50px auto  0 !important;
+        display: none !important;
     }
 
     .headline-date {
@@ -176,25 +175,6 @@ and (max-device-width: 767px)
         width: 90% !important;
     }
 
-    .sponsor-list {
-        flex-direction: column;
-    }
-
-    .card {
-        width: 100% !important;
-        max-width: 364px;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    .content-row.teams {
-        order: 1;
-    }
-
-    .content-row.organiser {
-        order: 2;
-    }
-
     .organiser-info-left {
         display: none !important;
     }
@@ -213,69 +193,97 @@ and (max-device-width: 767px)
 
     .organiser-info {
         flex-direction: column;
-    }
-    
-    .site-link.mobile {
-        visibility: visible !important;
-        display: inherit;
-        margin-top: 30px;
+        margin-bottom: 0 !important;
     }
 
-    .teams {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+    .organiser-info-desc {
+        text-align: justify !important;
+    }
+    
+    .site-link-mobile {
+        margin-top: 30px;
+        color: #C93A1B;
+        font-size: 11px;
+        font-weight: 600;
+        align-self: flex-start;
     }
 
     .footer-info {
         flex-direction: column;
-        width: 94% !important;
-        padding-bottom: 50px !important;
+        width: 100% !important;
+        height: 188px !important;
+        padding: 30px 0;
+    }
+
+
+    .team {
+        margin: 6px !important;
+    }
+
+    .participants {
+        width: auto !important;
+        justify-content: center;
+        max-width: 500px;
+    }
+
+    .title-mobile {
+        width: 100%;
+    }
+
+    .copyright {
+        order: 1;
     }
 
     .social-accounts {
+        order: 2;
+        border-bottom: 1px solid
         margin-left: 0 !important;
         margin-top: 18px;
-        width: 100% !important;
+        width: 224px !important;
     }
 
     .disclaimer {
+        order: 3;
+        margin-top: 20px;
         height: auto !important;
-        padding: 15px 20px;
+        padding: 20px 20px 0 !important;
         line-height: 12px !important;
         position: static !important;
-        width: auto !important
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        width: 90% !important;
     }
 
-    .gleam-modal {
-        padding: 15px 15px !important;
+}
+
+@media only screen
+and (max-device-width: 541px) {
+
+    .main-info-container {
+        width: 340px !important;
     }
 
-    iframe, #loading-text {
-        width: 320px !important;
+    .team {
+        width: 90px !important;
+        height: 97px !important;
+        padding: 10px 0 !important;
     }
 
-    .teams-header {
-        flex-direction: column;
-        height: 105px;
+    .team-logo {
+        width: 65px !important;
+        height: 65px !important;
     }
 
-    .teams-header-content {
-        width: auto !important;
+    .team-name {
+        font-size: 12px !important;
     }
 
-    .twitch-embed-container {
-        top: 230px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        height: 258px;
+    .disclaimer {
+        width: 340px !important;
     }
 
-    .registration_closed {
-        margin-top: 135px !important;
-        font-size: 13px;
+    .footer-info {
+        padding: 40px 0;
     }
-
 }
 
 

@@ -4,11 +4,11 @@ var teams = require('../data/teams.json');
 
 module.exports = componentsCreator = {
 
-    processTeams: function (teams, max) {
+    processTeams: function (teams, max, showedTeams) {
 
         $('.participants').empty();
 
-        var end = 5;
+        var end = showedTeams;
 
         if (max) {
             end = teams.length;
