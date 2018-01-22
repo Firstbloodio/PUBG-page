@@ -2,7 +2,7 @@
 
 <img src='https://github.com/Firstbloodio/firstblood-www/blob/master/resources/img/main/logo_shield_b.jpg' width = '22.5%'>
 
-# FirstBlood BITS Tournament Landing Page
+# FirstBlood PUBG Tournament Landing Page
 Repository responsible for FirstBlood.io upcoming tournament landing page.
 
 # Resources Used
