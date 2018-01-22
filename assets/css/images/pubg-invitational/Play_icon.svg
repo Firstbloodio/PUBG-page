@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Play_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-260.000000, -160.000000)">
+        <path d="M261.4,160 C261.6996,160 261.96,160.109333 262.1882,160.261333 L273.0676,166.757333 C273.608,166.94 274,167.421333 274,168 C274,168.433333 273.769,168.801333 273.433,169.044 L262.2694,175.685333 C262.0286,175.872 261.7332,176 261.4,176 C260.6258,176 260,175.404 260,174.666667 L260,161.333333 C260,160.597333 260.6258,160 261.4,160 Z" id="Play_icon" fill="#FFFFFF"></path>
+    </g>
+</svg>
