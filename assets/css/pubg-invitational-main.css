@@ -103,62 +103,6 @@ h2 {
     color: #FFF;
 }
 
-.gleam-modal {
-    z-index: 1050;
-    position: fixed;
-    background: #C93A1B;
-    border-radius: 4px;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 20px 40px;
-    height: 90%;
-}
-
-.gleam-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 90%;
-}
-
-iframe, #loading-text {
-    width: 360px;
-    height: 100%;
-}
-
-#loading-text {
-    text-align: center;
-    line-height: 228px;
-}
-
-#close-modal-btn {
-    width: 200px;
-    height: 50px;
-    background: #CA633E;
-    border-radius: 4px;
-    text-align: center;
-    line-height: 50px;
-    cursor: pointer;
-}
-
 /* HEADER */
 
 .banner, .center-info, .bottom-info, .twitch-embed-container {
@@ -168,7 +112,7 @@ iframe, #loading-text {
 
 .header {
     width: 100%;
-    height: 400px;
+    height: 391px;
     background: url(./images/pubg-invitational/pl-header-background.png) no-repeat center;
     font-family: "Open Sans";
     color: #FFF;
@@ -238,6 +182,7 @@ iframe, #loading-text {
     font-family: Korolev;
     width: 225px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .nav.active {
@@ -442,7 +387,6 @@ a.action-button {
     background: linear-gradient(180deg, #140125 0%, #2F1E3E 100%);
 }
 
-
 .main-info-container {
     max-width: 1024px;
     width: 64%;
@@ -504,6 +448,17 @@ a.action-button {
 {
     max-height: 2000px;
     transition: max-height 1s ease-in;
+}
+
+.announcing-soon {
+    background-color: rgba(67, 58, 74, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .team {

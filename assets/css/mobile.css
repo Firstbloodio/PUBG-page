@@ -90,11 +90,11 @@ and (max-device-width: 767px)
 
     .mobile-menu {
         height: 100%;
-        background-color: #7F3426;
+        background-color: #210F31;
         width: 100%;
         position: absolute;
         z-index: 1000;
-        top: 60px;
+        top: 39px;
         display: flex !important;
         flex-direction: column;
         align-items: center;
@@ -112,7 +112,7 @@ and (max-device-width: 767px)
     }
 
     .mobile-nav.overview {
-        border-bottom: 1px solid rgba(0, 0, 0, 1);
+        border-bottom: 1px solid #C53224;
         margin-top: 40px;
     }
 
@@ -125,7 +125,6 @@ and (max-device-width: 767px)
         flex-direction: column;
         height: 27px;
         justify-content: space-between;
-        margin-right: 10px;
     }
 
     .menu-line {
