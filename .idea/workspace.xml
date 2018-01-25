@@ -87,13 +87,13 @@
       <file leaf-file-name="rules.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rules.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="178" column="45" lean-forward="false" selection-start-line="178" selection-start-column="45" selection-end-line="178" selection-end-column="45" />
+            <state relative-caret-position="711">
+              <caret line="277" column="48" lean-forward="false" selection-start-line="277" selection-start-column="48" selection-end-line="277" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1516873431000" expanded="false" signature="15641:15654" ph="..." />
-                <marker date="1516873431000" expanded="false" signature="15907:15913" ph="©" />
-                <marker date="1516873431000" expanded="false" signature="16886:16892" ph="©" />
+                <marker date="1516876868000" expanded="false" signature="16533:16546" ph="..." />
+                <marker date="1516876868000" expanded="false" signature="16799:16805" ph="©" />
+                <marker date="1516876868000" expanded="false" signature="17778:17784" ph="©" />
               </folding>
             </state>
           </provider>
@@ -102,8 +102,8 @@
       <file leaf-file-name="rules.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/rules.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+            <state relative-caret-position="489">
+              <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="299">
               <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
               <folding />
             </state>
@@ -133,7 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>disclaimer</find>
       <find>.title-mobile</find>
       <find>title</find>
       <find>footer</find>
@@ -155,14 +154,15 @@
       <find>mobile-menu</find>
       <find>mobile-</find>
       <find>RULES</find>
-      <find>.over</find>
       <find>nav</find>
       <find>utm</find>
       <find>table</find>
-      <find>th</find>
       <find>body</find>
       <find>mid-</find>
+      <find>.over</find>
       <find>mid-text</find>
+      <find>th</find>
+      <find>points</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -318,7 +318,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33171000" />
+    <option name="totallyTimeSpent" value="33995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -407,9 +407,9 @@
           <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1516873431000" expanded="false" signature="15641:15654" ph="..." />
-            <marker date="1516873431000" expanded="false" signature="15907:15913" ph="©" />
-            <marker date="1516873431000" expanded="false" signature="16886:16892" ph="©" />
+            <marker date="1516876868000" expanded="false" signature="16533:16546" ph="..." />
+            <marker date="1516876868000" expanded="false" signature="16799:16805" ph="©" />
+            <marker date="1516876868000" expanded="false" signature="17778:17784" ph="©" />
           </folding>
         </state>
       </provider>
@@ -563,14 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/pubg-invitational-main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="733">
@@ -591,23 +583,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="116" column="5" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="178" column="45" lean-forward="false" selection-start-line="178" selection-start-column="45" selection-end-line="178" selection-end-column="45" />
+        <state relative-caret-position="711">
+          <caret line="277" column="48" lean-forward="false" selection-start-line="277" selection-start-column="48" selection-end-line="277" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1516873431000" expanded="false" signature="15641:15654" ph="..." />
-            <marker date="1516873431000" expanded="false" signature="15907:15913" ph="©" />
-            <marker date="1516873431000" expanded="false" signature="16886:16892" ph="©" />
+            <marker date="1516876868000" expanded="false" signature="16533:16546" ph="..." />
+            <marker date="1516876868000" expanded="false" signature="16799:16805" ph="©" />
+            <marker date="1516876868000" expanded="false" signature="17778:17784" ph="©" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/rules.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+        <state relative-caret-position="489">
+          <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
           <folding />
         </state>
       </provider>
