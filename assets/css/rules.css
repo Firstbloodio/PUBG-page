@@ -54,21 +54,60 @@
 .settings-table {
     width: 100%;
     font-size: 14px;
-    margin: 0 auto 40px;
+    margin: 0 0 40px;
+    max-width: 540px;
 }
+
+.settings-table td {
+    width: 33%
+}
+
+.settings-table th {
+    text-align: left;
+}
+
+.circle-table th {
+    text-align: left;
+}
+
+.points-table td {
+    width: 33%;
+}
+
 
 .circle-table {
     width: 100%;
     font-size: 14px;
+    max-width: 846px;
+}
+
+.circle-table td {
+    width: 21.5%
 }
 
 .points-table {
     width: 100%;
     font-size: 14px;
-    margin: 0 auto 40px;
+    margin: 0;
+    max-width: 540px;
+    padding-bottom: 15px;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 .mid-text {
     text-align: center;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.grey-txt {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-info {
+    position: static !important;
 }
