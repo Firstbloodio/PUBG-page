@@ -35,6 +35,18 @@ module.exports=[
   {
     "name": "SHOOT TO KILL",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_ShootToKill.png"
+  },
+  {
+    "name": "HOOLIGANS",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Hooligans.png"
+  },
+  {
+    "name": "CHECK SIX",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_CheckSix.png"
+  },
+  {
+    "name": "BROKEN HAMMERS",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Default.png"
   }
 ]
 
