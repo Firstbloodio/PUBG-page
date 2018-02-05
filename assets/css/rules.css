@@ -111,10 +111,6 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-info {
-    position: static !important;
-}
-
 .first-column {
     width: 23% !important;
 }

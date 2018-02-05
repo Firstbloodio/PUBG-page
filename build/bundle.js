@@ -88,12 +88,14 @@ $(document).ready(function () {
     if (onMobile) {
 
         $('.site-link-mobile').removeClass('hidden');
+        $('.footer-info').removeClass('fix-position');
     }
 
     if (onTablet) {
         console.log('ontablet');
         $('.footer-info').addClass('hidden');
         $('.footer-info-tablet-layout').removeClass('hidden');
+        $('.footer-info').removeClass('fix-position');
     }
 
     var mobileMenuOpen = false;
