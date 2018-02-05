@@ -580,6 +580,7 @@ a.action-button {
     background-color: #210F31;
     width: 100%;
     bottom: 0;
+    position: fixed;
 }
 
 .fix-position {

@@ -67,6 +67,10 @@ and (max-device-width: 1024px)
         margin-left: 0;
     }
 
+    .footer-info {
+        position: static !important;
+    }
+
 }
 
 
@@ -252,6 +256,10 @@ and (max-device-width: 767px)
         width: 90% !important;
     }
 
+    .footer-info {
+        position: static !important;
+    }
+
 }
 
 @media only screen
@@ -282,6 +290,7 @@ and (max-device-width: 541px) {
 
     .footer-info {
         padding: 40px 0;
+        position: static !important;
     }
 }
 
