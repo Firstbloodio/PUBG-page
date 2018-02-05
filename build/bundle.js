@@ -1,31 +1,40 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports=[
   {
-    "name": "NOBLE"
+    "name": "CLOUD9",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png"
   },
   {
-    "name": "NOBLE"
+    "name": "NOBLE",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Noble.png"
   },
   {
-    "name": "NOBLE"
+    "name": "TOTALITY",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
   },
   {
-    "name": "NOBLE"
+    "name": "EUNITED",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Eunited.png"
   },
   {
-    "name": "NOBLE"
+    "name": "GALE FORCE",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_GaleForce.png"
   },
   {
-    "name": "NOBLE"
+    "name": "GAMBINO",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Gambino.png"
   },
   {
-    "name": "NOBLE"
+    "name": "GODSQUAD",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
   },
   {
-    "name": "NOBLE"
+    "name": "NOVA",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Nova.png"
   },
   {
-    "name": "NOBLE"
+    "name": "SHOOT TO KILL",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_ShootToKill.png"
   }
 ]
 
@@ -135,6 +144,7 @@ $(document).ready(function () {
                         $('.show-all').addClass('hidden');
                         componentCreator.processTeams(teams, true, showedTeams);
                         $('.participants').addClass('opened');
+                        $('.footer-info').removeClass('fix-position');
                     });
 
                 $('.close-show-all').click(function () {
@@ -142,6 +152,7 @@ $(document).ready(function () {
                     $('.close-show-all').addClass('hidden');
                     componentCreator.processTeams(teams, false, showedTeams);
                     $('.participants').removeClass('opened');
+                    $('.footer-info').addClass('fix-position');
                 });
             }
         }
@@ -174,7 +185,7 @@ module.exports = componentsCreator = {
             if (index < end) {
                 $('.participants')
                     .append(' <div class="team">\n' +
-                        '                    <div class="team-logo"></div>\n' +
+                        '                    <img src="'+team.link+'" class="team-logo">\n' +
                         '                    <div class="team-name">' + team.name + '</div>\n' +
                         '                </div>')
             }

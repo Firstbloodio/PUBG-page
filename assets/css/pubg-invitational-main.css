@@ -578,8 +578,11 @@ a.action-button {
     height: 100px;
     background-color: #210F31;
     width: 100%;
-    position: fixed;
     bottom: 0;
+}
+
+.fix-position {
+    position: fixed;
 }
 
 .social-accounts {
@@ -660,7 +663,7 @@ a.action-button {
 .team-logo {
     width: 100px;
     height: 100px;
-    background: #FFF;
+    object-fit: contain;
 }
 
 

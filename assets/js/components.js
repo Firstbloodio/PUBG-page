@@ -18,7 +18,7 @@ module.exports = componentsCreator = {
             if (index < end) {
                 $('.participants')
                     .append(' <div class="team">\n' +
-                        '                    <div class="team-logo"></div>\n' +
+                        '                    <img src="'+team.link+'" class="team-logo">\n' +
                         '                    <div class="team-name">' + team.name + '</div>\n' +
                         '                </div>')
             }

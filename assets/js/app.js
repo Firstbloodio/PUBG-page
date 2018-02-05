@@ -103,6 +103,7 @@ $(document).ready(function () {
                         $('.show-all').addClass('hidden');
                         componentCreator.processTeams(teams, true, showedTeams);
                         $('.participants').addClass('opened');
+                        $('.footer-info').removeClass('fix-position');
                     });
 
                 $('.close-show-all').click(function () {
@@ -110,6 +111,7 @@ $(document).ready(function () {
                     $('.close-show-all').addClass('hidden');
                     componentCreator.processTeams(teams, false, showedTeams);
                     $('.participants').removeClass('opened');
+                    $('.footer-info').addClass('fix-position');
                 });
             }
         }

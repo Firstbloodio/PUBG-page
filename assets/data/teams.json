@@ -1,29 +1,38 @@
 [
   {
-    "name": "NOBLE"
+    "name": "CLOUD9",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png"
   },
   {
-    "name": "NOBLE"
+    "name": "NOBLE",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Noble.png"
   },
   {
-    "name": "NOBLE"
+    "name": "TOTALITY",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
   },
   {
-    "name": "NOBLE"
+    "name": "EUNITED",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Eunited.png"
   },
   {
-    "name": "NOBLE"
+    "name": "GALE FORCE",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_GaleForce.png"
   },
   {
-    "name": "NOBLE"
+    "name": "GAMBINO",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Gambino.png"
   },
   {
-    "name": "NOBLE"
+    "name": "GODSQUAD",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
   },
   {
-    "name": "NOBLE"
+    "name": "NOVA",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Nova.png"
   },
   {
-    "name": "NOBLE"
+    "name": "SHOOT TO KILL",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_ShootToKill.png"
   }
 ]
