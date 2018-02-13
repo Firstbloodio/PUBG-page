@@ -82,38 +82,12 @@ $(document).ready(function () {
         if (teams.length > 0) {
             $('.no-team').addClass('hidden');
 
-            var showedTeams = 5;
-
-            if (onTablet) {
-                showedTeams = 4;
-            }
 
             if (onMobile) {
-                showedTeams = 3;
                 $('.title').removeClass('hidden');
             }
 
-            componentCreator.processTeams(teams, false, showedTeams);
-
-
-            if (teams.length > showedTeams) {
-                var additional = teams.length - showedTeams;
-                $('.show-all').removeClass('hidden')
-                    .text("Show all teams (+" + additional + ")")
-                    .click(function () {
-                        $('.close-show-all').removeClass('hidden');
-                        $('.show-all').addClass('hidden');
-                        componentCreator.processTeams(teams, true, showedTeams);
-                        $('.participants').addClass('opened');
-                    });
-
-                $('.close-show-all').click(function () {
-                    $('.show-all').removeClass('hidden');
-                    $('.close-show-all').addClass('hidden');
-                    componentCreator.processTeams(teams, false, showedTeams);
-                    $('.participants').removeClass('opened');
-                });
-            }
+            componentCreator.processTeams(teams, false, teams.length);
         }
     }
 

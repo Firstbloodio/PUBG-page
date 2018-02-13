@@ -440,7 +440,6 @@ a.action-button {
 
 .participants {
     width: 830px;
-    max-height: 300px;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
