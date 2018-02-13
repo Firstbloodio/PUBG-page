@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462d7580-ba10-4685-b2f6-bd570e0fde27" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Ignite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_STDX.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_DUEL.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_Elevate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_Ghost.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_MLGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_MemeEnthusiasts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_Pecadores.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_WhereIsMyMonitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_Logo_WildcardGaming.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_CheckSix.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Eunited.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Gambino.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Hooligans.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Noble.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Default.png" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Default.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_GaleForce.png" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_GaleForce.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Nova.png" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Nova.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_ShootToKill.png" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_ShootToKill.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Totality.png" afterPath="$PROJECT_DIR$/assets/css/images/team_logos/IMG_LogoTeam_Totality.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/mobile.css" afterPath="$PROJECT_DIR$/assets/css/mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/pubg-invitational-main.css" afterPath="$PROJECT_DIR$/assets/css/pubg-invitational-main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/data/teams.json" afterPath="$PROJECT_DIR$/assets/data/teams.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="$PROJECT_DIR$/build/bundle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,105 +45,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="113" column="61" lean-forward="false" selection-start-line="113" selection-start-column="61" selection-end-line="113" selection-end-column="61" />
-              <folding />
-            </state>
+      <file leaf-file-name="ca.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/team/ca.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teams.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="teams.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/data/teams.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+            <state relative-caret-position="601">
+              <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="components.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/components.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding />
-            </state>
+      <file leaf-file-name="co.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/team/co.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="156" column="23" lean-forward="false" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
-              <folding />
-            </state>
+      <file leaf-file-name="db.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/team/db.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pubg-invitational-main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/pubg-invitational-main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="582" column="20" lean-forward="false" selection-start-line="582" selection-start-column="20" selection-end-line="582" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/schedule.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rules.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rules.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="350" column="6" lean-forward="true" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rules.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/rules.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="111" column="1" lean-forward="false" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/mobile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="49" />
-              <folding />
-            </state>
+      <file leaf-file-name="ep.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/team/ep.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -165,13 +127,13 @@
       <list>
         <option value="$PROJECT_DIR$/assets/css/main-americas2017.css" />
         <option value="$PROJECT_DIR$/assets/js/components.js" />
-        <option value="$PROJECT_DIR$/assets/data/teams.json" />
         <option value="$PROJECT_DIR$/assets/css/rules.css" />
         <option value="$PROJECT_DIR$/rules.html" />
         <option value="$PROJECT_DIR$/assets/css/pubg-invitational-main.css" />
         <option value="$PROJECT_DIR$/assets/css/mobile.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/assets/data/teams.json" />
       </list>
     </option>
   </component>
@@ -191,11 +153,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="559" />
-    <option name="y" value="23" />
-    <option name="width" value="1121" />
-    <option name="height" value="816" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1190" />
+    <option name="y" value="2156" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -215,62 +177,56 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
+              <item name="PUBG-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PUBG-page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
+              <item name="PUBG-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PUBG-page" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
+              <item name="PUBG-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PUBG-page" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
+              <item name="PUBG-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PUBG-page" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
+              <item name="PUBG-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PUBG-page" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="team_logos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
+              <item name="PUBG-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PUBG-page" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pubg-lander" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pubg-lander" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="PUBG-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PUBG-page" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,11 +236,12 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css/images/team_logos" />
+      <recent name="$PROJECT_DIR$/assets/css/images/pubg-invitational" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/css/images/team_logos" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/css/images/pubg-invitational" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,18 +270,19 @@
       <workItem from="1516268682005" duration="22262000" />
       <workItem from="1516541102773" duration="6993000" />
       <workItem from="1517824676009" duration="4057000" />
+      <workItem from="1518524550793" duration="182000" />
+      <workItem from="1518524744854" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38620000" />
+    <option name="totallyTimeSpent" value="39995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="1190" y="2156" width="1855" height="1084" extended-state="6" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5219298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -354,11 +312,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/css/pubg-invitational-main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13968">
+          <caret line="582" column="20" lean-forward="false" selection-start-line="582" selection-start-column="20" selection-end-line="582" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8400">
+          <caret line="350" column="6" lean-forward="true" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/rules.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="111" column="1" lean-forward="false" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1704">
+          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -374,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -382,9 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508750887000" expanded="true" signature="1744:1755" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="91" lean-forward="false" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4155">
           <caret line="277" column="48" lean-forward="false" selection-start-line="277" selection-start-column="48" selection-end-line="277" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,7 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -434,7 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -458,9 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508750887000" expanded="true" signature="1744:1755" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2655">
           <caret line="177" column="64" lean-forward="false" selection-start-line="177" selection-start-column="64" selection-end-line="177" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,9 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
           <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,9 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508750887000" expanded="true" signature="1744:1755" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,30 +577,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="1344">
           <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="336">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/data/teams.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -638,17 +605,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rules.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="8400">
           <caret line="350" column="6" lean-forward="true" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/pubg-invitational-main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
+        <state relative-caret-position="13968">
           <caret line="582" column="20" lean-forward="false" selection-start-line="582" selection-start-column="20" selection-end-line="582" selection-end-column="20" />
           <folding />
         </state>
@@ -656,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
+        <state relative-caret-position="1704">
           <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding />
         </state>
@@ -664,24 +628,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/rules.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
+        <state relative-caret-position="2664">
           <caret line="111" column="1" lean-forward="false" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="3744">
           <caret line="156" column="23" lean-forward="false" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="1570">
           <caret line="113" column="61" lean-forward="false" selection-start-line="113" selection-start-column="61" selection-end-line="113" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/team/ca.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/team/co.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/team/db.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/team/ep.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/data/teams.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="79" column="55" lean-forward="false" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
           <folding />
         </state>
       </provider>
