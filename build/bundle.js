@@ -76,6 +76,10 @@ module.exports=[
     "name": "MLGB ESPORTS",
     "link": "assets/css/images/team_logos/IMG_Logo_MLGB.png"
   },
+  {
+    "name": "HAVOK",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Havok.png"
+  },
 ]
 
 },{}],2:[function(require,module,exports){
