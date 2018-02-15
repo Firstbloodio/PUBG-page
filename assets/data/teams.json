@@ -1,19 +1,19 @@
 [
   {
-    "name": "CLOUD9",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png"
-  },
-  {
     "name": "TOTALITY",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
+  },
+  {
+    "name": "EVIL GENIUSES",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
   },
   {
     "name": "OPTIC GAMING",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png"
   },
   {
-    "name": "EVIL GENIUSES",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
+    "name": "WILDCARD GAMING",
+    "link": "assets/css/images/team_logos/IMG_Logo_WildcardGaming.png"
   },
   {
     "name": "GALE FORCE",
@@ -22,10 +22,6 @@
   {
     "name": "IGNITE",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Ignite.png"
-  },
-  {
-    "name": "WILDCARD GAMING",
-    "link": "assets/css/images/team_logos/IMG_Logo_WildcardGaming.png"
   },
   {
     "name": "RENDER",
