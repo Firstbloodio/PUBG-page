@@ -26,7 +26,7 @@ module.exports=[
   },
   {
     "name": "RENDER",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Default.png"
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Render.png"
   },
   {
     "name": "GHOST",
