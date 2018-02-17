@@ -61,8 +61,8 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
   },
   {
-    "name": "WHERE IS MY MONITOR",
-    "link": "assets/css/images/team_logos/IMG_Logo_WhereIsMyMonitor.png"
+    "name": "RUSH",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_rush.png"
   },
   {
     "name": "NOVA ESPORTS",
