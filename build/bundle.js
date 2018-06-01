@@ -5,6 +5,42 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
   },
   {
+    "name": "Team Dignitas",
+    "link": "assets/css/images/team_logos/IMG_Logo_dignitas.png"
+  },
+  {
+    "name": "NRG Esports",
+    "link": "assets/css/images/team_logos/IMG_Logo_nrg.png"
+  },
+  {
+    "name": "SPACE STATION GAMING",
+    "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
+  },
+  {
+    "name": "GHOST",
+    "link": "assets/css/images/team_logos/IMG_Logo_Ghost.png"
+  },
+  {
+    "name": "eUnited",
+    "link": "assets/css/images/team_logos/IMG_Logo_eunited.png"
+  },
+  {
+    "name": "GOD SQUAD",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
+  },{
+    "name": "SETTODESTROYX",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_STDX.png"
+  },
+  {
+    "name": "WILDCARD GAMING",
+    "link": "assets/css/images/team_logos/IMG_Logo_WildcardGaming.png"
+  },
+  {
+    "name": "+ MORE",
+    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
+  }
+  /*
+  {
     "name": "TOTALITY",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
   },
@@ -27,12 +63,7 @@ module.exports=[
   {
     "name": "RENDER",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Render.png"
-  },
-  {
-    "name": "GHOST",
-    "link": "assets/css/images/team_logos/IMG_Logo_Ghost.png"
-  },
-  {
+  },{
     "name": "SHOOT TO KILL",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_ShootToKill.png"
   },
@@ -47,12 +78,7 @@ module.exports=[
   {
     "name": "MEME ENTHUSIASTS",
     "link": "assets/css/images/team_logos/IMG_Logo_MemeEnthusiasts.png"
-  },
-  {
-    "name": "GOD SQUAD",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
-  },
-  {
+  },{
     "name": "PECADORES",
     "link": "assets/css/images/team_logos/IMG_Logo_Pecadores.png"
   },
@@ -79,7 +105,8 @@ module.exports=[
   {
     "name": "HAVOK",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Havok.png"
-  },
+  }
+  */
 ]
 
 },{}],2:[function(require,module,exports){
