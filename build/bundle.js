@@ -1,20 +1,32 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports=[
   {
-    "name": "EVIL GENIUSES",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
+    "name": "OPTIC GAMING",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png"
+  },
+  {
+    "name": "EnVyUs",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_EnVyUs.png"
+  },
+  {
+    "name": "SPACE STATION GAMING",
+    "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
   },
   {
     "name": "Team Dignitas",
     "link": "assets/css/images/team_logos/IMG_Logo_dignitas.png"
   },
   {
+    "name": "EVIL GENIUSES",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
+  },
+  {
     "name": "NRG Esports",
     "link": "assets/css/images/team_logos/IMG_Logo_nrg.png"
   },
   {
-    "name": "SPACE STATION GAMING",
-    "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
+    "name": "Team Gates",
+    "link": "assets/css/images/team_logos/IMG_Logo_gates.png"
   },
   {
     "name": "GHOST",
@@ -23,6 +35,10 @@ module.exports=[
   {
     "name": "eUnited",
     "link": "assets/css/images/team_logos/IMG_Logo_eunited.png"
+  },
+  {
+    "name": "TOTALITY",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
   },
   {
     "name": "GOD SQUAD",
@@ -34,6 +50,30 @@ module.exports=[
   {
     "name": "WILDCARD GAMING",
     "link": "assets/css/images/team_logos/IMG_Logo_WildcardGaming.png"
+  },
+  {
+    "name": "Tempo Storm",
+    "link": "assets/css/images/team_logos/IMG_Logo_TempoStorm.png"
+  },
+  {
+    "name": "+ MORE",
+    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
+  },
+  {
+    "name": "+ MORE",
+    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
+  },
+  {
+    "name": "+ MORE",
+    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
+  },
+  {
+    "name": "+ MORE",
+    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
+  },
+  {
+    "name": "+ MORE",
+    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   },
   {
     "name": "+ MORE",
