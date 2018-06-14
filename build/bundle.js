@@ -9,7 +9,7 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_EnVyUs.png"
   },
   {
-    "name": "SPACE STATION GAMING",
+    "name": "SPACE STATION",
     "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
   },
   {
@@ -48,7 +48,7 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_STDX.png"
   },
   {
-    "name": "WILDCARD GAMING",
+    "name": "WILDCARD",
     "link": "assets/css/images/team_logos/IMG_Logo_WildcardGaming.png"
   },
   {
