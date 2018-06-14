@@ -9,10 +9,6 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_EnVyUs.png"
   },
   {
-    "name": "SPACE STATION",
-    "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
-  },
-  {
     "name": "Team Dignitas",
     "link": "assets/css/images/team_logos/IMG_Logo_dignitas.png"
   },
@@ -21,12 +17,16 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
   },
   {
+    "name": "Tempo Storm",
+    "link": "assets/css/images/team_logos/IMG_Logo_TempoStorm.png"
+  },
+  {
     "name": "NRG Esports",
     "link": "assets/css/images/team_logos/IMG_Logo_nrg.png"
   },
   {
-    "name": "Team Gates",
-    "link": "assets/css/images/team_logos/IMG_Logo_gates.png"
+    "name": "SPACE STATION",
+    "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
   },
   {
     "name": "GHOST",
@@ -37,46 +37,47 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_Logo_eunited.png"
   },
   {
-    "name": "TOTALITY",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
-  },
-  {
-    "name": "GOD SQUAD",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
-  },{
-    "name": "SETTODESTROYX",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_STDX.png"
+    "name": "Team Gates",
+    "link": "assets/css/images/team_logos/IMG_Logo_gates.png"
   },
   {
     "name": "WILDCARD",
     "link": "assets/css/images/team_logos/IMG_Logo_WildcardGaming.png"
   },
   {
-    "name": "Tempo Storm",
-    "link": "assets/css/images/team_logos/IMG_Logo_TempoStorm.png"
+    "name": "SETTODESTROYX",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_STDX.png"
   },
   {
-    "name": "+ MORE",
+    "name": "TOTALITY",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
+  },
+  {
+    "name": "GOD SQUAD",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
+  },
+  {
+    "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   },
   {
-    "name": "+ MORE",
+    "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   },
   {
-    "name": "+ MORE",
+    "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   },
   {
-    "name": "+ MORE",
+    "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   },
   {
-    "name": "+ MORE",
+    "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   },
   {
-    "name": "+ MORE",
+    "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   }
   /*
