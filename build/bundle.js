@@ -57,8 +57,8 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
   },
   {
-    "name": "",
-    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
+    "name": "Fable E-sports",
+    "link": "assets/css/images/team_logos/IMG_Logo_fable.png"
   },
   {
     "name": "",
