@@ -79,14 +79,6 @@ module.exports=[
   {
     "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
-  },
-  {
-    "name": "",
-    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
-  },
-  {
-    "name": "",
-    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   }
   /*
   {
