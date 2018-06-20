@@ -5,6 +5,10 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png"
   },
   {
+    "name": "Cloud9",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png"
+  },
+  {
     "name": "EnVyUs",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_EnVyUs.png"
   },
@@ -23,6 +27,10 @@ module.exports=[
   {
     "name": "NRG Esports",
     "link": "assets/css/images/team_logos/IMG_Logo_nrg.png"
+  },
+  {
+    "name": "NOVA ESPORTS",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Nova.png"
   },
   {
     "name": "SPACE STATION",
@@ -130,10 +138,6 @@ module.exports=[
   {
     "name": "RUSH",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_rush.png"
-  },
-  {
-    "name": "NOVA ESPORTS",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Nova.png"
   },
   {
     "name": "DUEL",
