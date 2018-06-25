@@ -5,6 +5,10 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png"
   },
   {
+    "name": "TSM",
+    "link": "assets/css/images/team_logos/IMG_Logo_TSM.png"
+  },
+  {
     "name": "Cloud9",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png"
   },
@@ -75,16 +79,8 @@ module.exports=[
   {
     "name": "",
     "link": "assets/css/images/team_logos/IMG_Logo_more.png"
-  },
-  {
-    "name": "",
-    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
   }
   /*
-  {
-    "name": "TOTALITY",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
-  },
   {
     "name": "OPTIC GAMING",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png"
