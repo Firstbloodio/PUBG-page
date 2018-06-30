@@ -28,7 +28,7 @@ $(document).ready(function () {
         }
     }
 
-    let data = ladderData.getData(6565);
+    let data = ladderData.getData(6627);
 
     // Execute on load
     checkWidth();
