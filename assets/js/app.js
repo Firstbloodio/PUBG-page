@@ -2,9 +2,10 @@ var $ = require('jquery');
 require('../../tooltipster');
 
 var teams = require('../data/teams.json');
+var res = require('../data/ladder.json');
 
 var componentCreator = require('./components');
-
+var ladderData = require('./ladder');
 
 $(document).ready(function () {
 
@@ -26,6 +27,8 @@ $(document).ready(function () {
             onMobile = false;
         }
     }
+
+    let data = ladderData.getData(6565);
 
     // Execute on load
     checkWidth();

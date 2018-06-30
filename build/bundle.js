@@ -1,86 +1,866 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+module.exports=
+
+[
+  {
+    "team_id": 8719,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/xuwdfjcvtlpikvtiyaqgdszvnktflqhu.jpg",
+    "name": "Burning blades ",
+    "kills": 0,
+    "score": 100,
+    "teamPlayers": [
+      {
+        "user_id": 3151,
+        "username": "stack4an",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/sdpgjeezlkczdrkpbaztzmjoytmrdtle.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/sdpgjeezlkczdrkpbaztzmjoytmrdtle.png",
+        "kills": 0
+      },
+      {
+        "user_id": 5393,
+        "username": "SkiDDo",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3d/3df7a5323e4d7de2b1da652271ef78f0e4217af0_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3d/3df7a5323e4d7de2b1da652271ef78f0e4217af0_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 15222,
+        "username": "cr1stalll",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/qcohtboamosipfhgkcvmfjlhkgyxmixy.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/qcohtboamosipfhgkcvmfjlhkgyxmixy.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 20661,
+        "username": "Higgy12",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/lctapnybegwejovtxoivbglhegcbtyta.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/lctapnybegwejovtxoivbglhegcbtyta.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 20662,
+        "username": "Max1ch",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/41/41cf9b4d682be544329164cd93b7be4fae872e38_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/41/41cf9b4d682be544329164cd93b7be4fae872e38_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 24360,
+        "username": "XCLOCKX",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ee/eed1a636b1ab0b63b3d381aa38347c4eb820b6f5_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/ee/eed1a636b1ab0b63b3d381aa38347c4eb820b6f5_full.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 1421,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/yunewsebgtkjgafkwzccxpwvbestvfnv.jpg",
+    "name": "Panthers-Gaming",
+    "kills": 0,
+    "score": 70,
+    "teamPlayers": [
+      {
+        "user_id": 6431,
+        "username": "blackYtheborn",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 6434,
+        "username": "C7EOPATRA",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aippmksztdhkbxbzwqzmebpaolymqicl.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aippmksztdhkbxbzwqzmebpaolymqicl.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 9899,
+        "username": "thisisabsoo",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3d/3d9db2e2fcb558b305762b5c5b066a566bcfdee2_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/3d/3d9db2e2fcb558b305762b5c5b066a566bcfdee2_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 9920,
+        "username": "Caint",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/warofizsqrwpodcvkxuizucsevoytdzx.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/warofizsqrwpodcvkxuizucsevoytdzx.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 27030,
+        "username": "Azp3ct-",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/vsxqhvlyjcuryuixynhqooyzrndlplrw.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/vsxqhvlyjcuryuixynhqooyzrndlplrw.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43015,
+        "username": "dipz",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/molvjruicsrwccuyzahxlzxihrfjznzz.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/molvjruicsrwccuyzahxlzxihrfjznzz.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 4372,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/7353-1513523611.png",
+    "name": "Game Senpai",
+    "kills": 0,
+    "score": 60,
+    "teamPlayers": [
+      {
+        "user_id": 22702,
+        "username": "Belos",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/64/643fa595182a5f9846741823285b1ea6caf26ce2_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/64/643fa595182a5f9846741823285b1ea6caf26ce2_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 22703,
+        "username": "billumg",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/34/344ff1ed96aa8073e573fbc8031fa07c2d459bf5_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/34/344ff1ed96aa8073e573fbc8031fa07c2d459bf5_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 43638,
+        "username": "nikos_300",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/scvrajpwfrxchymuaizewrasrzekuoou.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/scvrajpwfrxchymuaizewrasrzekuoou.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43643,
+        "username": "Ghostlift",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/dpaynfyegihoatnbglrmgpiqwatjcszr.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/dpaynfyegihoatnbglrmgpiqwatjcszr.png",
+        "kills": 0
+      },
+      {
+        "user_id": 44019,
+        "username": "Mithril",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 7936,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/jstaahgohcsjefjueupdrqkgsnbddzug.png",
+    "name": "WePlay ESPORTS",
+    "kills": 0,
+    "score": 40,
+    "teamPlayers": [
+      {
+        "user_id": 24349,
+        "username": "Kyox68",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/27/272db62c4a9dd3d5054475afad0b48ef5a1c0245_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/27/272db62c4a9dd3d5054475afad0b48ef5a1c0245_full.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 6776,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/13374-1521122213.png",
+    "name": "AOG",
+    "kills": 0,
+    "score": 30,
+    "teamPlayers": [
+      {
+        "user_id": 15674,
+        "username": "ZHACO",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/kpeabtzwgftybfqezchfsneffrfdgahe.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/kpeabtzwgftybfqezchfsneffrfdgahe.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 36433,
+        "username": "Opanki2",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a2/a21ef65e4f11b37fb56610a9124ff01db79556ba_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a2/a21ef65e4f11b37fb56610a9124ff01db79556ba_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 36434,
+        "username": "l-LEV-l",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/oxqttdxywxzrdvagigwkvproeteplflb.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/oxqttdxywxzrdvagigwkvproeteplflb.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43332,
+        "username": "KoFukiTenzo",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aljvibgvrweyeqjavfbyiqkbucelspfs.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aljvibgvrweyeqjavfbyiqkbucelspfs.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 8230,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/xcuuoclicccdjfpiyquifcuhetyacgjk.png",
+    "name": "Twisted Gaming",
+    "kills": 0,
+    "score": 15,
+    "teamPlayers": [
+      {
+        "user_id": 9452,
+        "username": "KennyVI",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1f/1fd48680c9eea7d4ec891f6466c25c5e5a6c5145_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1f/1fd48680c9eea7d4ec891f6466c25c5e5a6c5145_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 9453,
+        "username": "alejac43",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/57/57bb409ba9119cc50b84b94a3f27bedc15fa2628_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/57/57bb409ba9119cc50b84b94a3f27bedc15fa2628_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 28690,
+        "username": "Sweaglele",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e3/e352186afd6efaf23b633db649e452e2abfad090_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/e3/e352186afd6efaf23b633db649e452e2abfad090_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 38855,
+        "username": "Ghosst_",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/cilqcldbdlozxzapgliftdpcbgjgjfwo.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/cilqcldbdlozxzapgliftdpcbgjgjfwo.png",
+        "kills": 0
+      },
+      {
+        "user_id": 42499,
+        "username": "Alexandra",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 42593,
+        "username": "flossyahova",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/skrtpciocvkewudtgibxcyclyyivznsw.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/skrtpciocvkewudtgibxcyclyyivznsw.png",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 2553,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/lgrsaarkitizyfxnumohncymfctktvgd.png",
+    "name": "PointOne",
+    "kills": 0,
+    "score": 10,
+    "teamPlayers": [
+      {
+        "user_id": 12617,
+        "username": "ashiax",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/74/7442bb0266b89a13927f3404816d4c83d2362168_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/74/7442bb0266b89a13927f3404816d4c83d2362168_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 12618,
+        "username": "Northrest",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/70/7056b0064ec7bc4f61a208083d6df502dc2ac633_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/70/7056b0064ec7bc4f61a208083d6df502dc2ac633_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 12620,
+        "username": "SnifflePuss",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/9f/9f033d029c157fe82398f12b4d49342466efb666_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/9f/9f033d029c157fe82398f12b4d49342466efb666_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 27457,
+        "username": "Tethrys",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1e/1e842874b5042030ba4bad41fa2df3181db9faf3_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/1e/1e842874b5042030ba4bad41fa2df3181db9faf3_full.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 3413,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/11360-1519643913.png",
+    "name": "Comanche",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 2377,
+        "username": "JestkiyH1pstv",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/rypnelxnmvpxdtyycrsfktklpomykqev.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/rypnelxnmvpxdtyycrsfktklpomykqev.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 5364,
+        "username": "DZenn",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 15554,
+        "username": "Retard0",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 17513,
+        "username": "Yarrmosh",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 17514,
+        "username": "sanchizzle",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/7e/7e7ad2efd841bb7709ffb5afdb59642c3fd06479_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/7e/7e7ad2efd841bb7709ffb5afdb59642c3fd06479_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 26945,
+        "username": "DZenn_TwitchTv",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d1/d139413255cdb720a6bf5b927182108d60ec877b_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d1/d139413255cdb720a6bf5b927182108d60ec877b_full.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 5689,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/10069-1518716706.png",
+    "name": "NyksGaming",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 30487,
+        "username": "becha",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/bbgqdojnjojxjxxzripqoamwpqvsbxud.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/bbgqdojnjojxjxxzripqoamwpqvsbxud.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 30491,
+        "username": "YasharBey",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/0a/0ab4b7c4133814348804af87157b3a8259cbe24c_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/0a/0ab4b7c4133814348804af87157b3a8259cbe24c_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 43583,
+        "username": "knife672",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gfqpwwosfarzlnxlqicnjrrewjqehsoi.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gfqpwwosfarzlnxlqicnjrrewjqehsoi.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43754,
+        "username": "schwerzy12",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 7465,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/rsbswwjvptresaslmukeatlgslltmwss.jpg",
+    "name": "HellHounds",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 21042,
+        "username": "Fast2Gaming",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fb/fbbcef659da7b543adfbb262e6d6f1bf01dfcd62_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fb/fbbcef659da7b543adfbb262e6d6f1bf01dfcd62_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 28706,
+        "username": "Skatopunk",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gplgrrwagsedooihwdizjydltacuucvj.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gplgrrwagsedooihwdizjydltacuucvj.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 40246,
+        "username": "Sharpl3lade",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/tbdkreugmnifpcwslcqtmzxycpxkffvv.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/tbdkreugmnifpcwslcqtmzxycpxkffvv.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43794,
+        "username": "Iuribiliboi",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/xentsjdterotvkvwebdmlpcwyjszqker.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/xentsjdterotvkvwebdmlpcwyjszqker.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 45117,
+        "username": "richie1881122",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 45118,
+        "username": "ThirsTyy1",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/navzmmfjzhgsvpcxaulpfsnqjlswzxxe.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/navzmmfjzhgsvpcxaulpfsnqjlswzxxe.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 7645,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/flrxybydgxxqjbylrqgcdtkzwzletqas.jpg",
+    "name": "Team Harmoni",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 4797,
+        "username": "FLAVVEQQ",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 7456,
+        "username": "qpz86",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 29719,
+        "username": "FRULLE-",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/vyrnhlahbimxydgtjsovznjlveeqfdco.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/vyrnhlahbimxydgtjsovznjlveeqfdco.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 30084,
+        "username": "Xmion",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 30794,
+        "username": "vangdahl",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 32132,
+        "username": "Snajdan",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/75/759b364331bd3566df2ee48fd389fc0310789288_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/75/759b364331bd3566df2ee48fd389fc0310789288_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 33949,
+        "username": "JMelin",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 41320,
+        "username": "djpoppz",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 41377,
+        "username": "BABA",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/broiewrrbgbmyxrhhclsczwwjrulakuk.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/broiewrrbgbmyxrhhclsczwwjrulakuk.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 42805,
+        "username": "Soder89",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43066,
+        "username": "Landin",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43854,
+        "username": "LASSE_LUFFARE",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 45772,
+        "username": "Kevk4n",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/uevqnmyoavqevrkhqbvzfreqvejzuyjp.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/uevqnmyoavqevrkhqbvzfreqvejzuyjp.png",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 7832,
+    "image_url": "/img/team-empty.png",
+    "name": "Miracle",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 4728,
+        "username": "idilaN1",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/51/513f08604b497afd3808bfc863ec161c00ec7dbf_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/51/513f08604b497afd3808bfc863ec161c00ec7dbf_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 6270,
+        "username": "doRiannn",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/97/978a669bd0e5f243337c727fedad33fb6994524a_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/97/978a669bd0e5f243337c727fedad33fb6994524a_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 6271,
+        "username": "NOTBETTERTHANYOU",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/76/76b8ab771ed549f6e29903dba4fd3f89b9d923d1_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/76/76b8ab771ed549f6e29903dba4fd3f89b9d923d1_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 15667,
+        "username": "Gorrin0",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 40557,
+        "username": "M1_Turuk",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 40628,
+        "username": "draaakxzie",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 8000,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/rbjomqrsxrvvqggjouopztiiliqweomc.png",
+    "name": "Inside Games",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 373,
+        "username": "KomiaX",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/16/16b0c34e8ba75eec98237b9e81a6ff03623ab6ff_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/16/16b0c34e8ba75eec98237b9e81a6ff03623ab6ff_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 374,
+        "username": "DZjEEEE",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fc/fc240481b6bf1eabf7a278952962093970bdcf51_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fc/fc240481b6bf1eabf7a278952962093970bdcf51_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 377,
+        "username": "sT4mZ",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b8/b874d5807c8cf495dd6c2704d63c1b2dcd95424b_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/b8/b874d5807c8cf495dd6c2704d63c1b2dcd95424b_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 5270,
+        "username": "HoundThe",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/mjyvxbevmnjpmptipfdeysrxmmpchzff.gif\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/mjyvxbevmnjpmptipfdeysrxmmpchzff.gif",
+        "kills": 0
+      },
+      {
+        "user_id": 13294,
+        "username": "Kominik",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c5/c5790d4772be5ac922ce3c5e433eec92878ad399_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/c5/c5790d4772be5ac922ce3c5e433eec92878ad399_full.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 14473,
+        "username": "Caukymnauky",
+        "avatar": "<img class=\"lazyload\" src=\"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg\" alt=\"\">",
+        "avatar_url": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 8076,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/stgkytzlhhpzlbjdbrrynvrcvsnpnwat.jpg",
+    "name": "sk1m",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 40681,
+        "username": "moostyx",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/bdupvvfolrhoqspxugqwgyvarhqiwnol.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/bdupvvfolrhoqspxugqwgyvarhqiwnol.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 43420,
+        "username": "LianteS_12",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 44025,
+        "username": "Mazay",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 44273,
+        "username": "difficl97",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 8084,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/kimzjsenkcekqruvqmpkuzihmjxuzsjg.png",
+    "name": "Split Lips",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 38498,
+        "username": "senkapaupau- [YouTube]",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/wtmbldoraylsaozumnjfevjdtonvambr.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/wtmbldoraylsaozumnjfevjdtonvambr.png",
+        "kills": 0
+      },
+      {
+        "user_id": 40201,
+        "username": "Maks krut",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/kheaavfofxvzdkzsygytohxyyeosarea.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/kheaavfofxvzdkzsygytohxyyeosarea.png",
+        "kills": 0
+      },
+      {
+        "user_id": 41882,
+        "username": "Byli4kа",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aavvwlpqsdbbsezqsxsztuqzkzcerhxu.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aavvwlpqsdbbsezqsxsztuqzkzcerhxu.png",
+        "kills": 0
+      },
+      {
+        "user_id": 41886,
+        "username": "hunteronchiken",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/elskueuvvmuqvzbnotdelnizusmwkatp.png\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/elskueuvvmuqvzbnotdelnizusmwkatp.png",
+        "kills": 0
+      },
+      {
+        "user_id": 42758,
+        "username": "DerfxD",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 43775,
+        "username": "super0210",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 44564,
+        "username": "Xanoro",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 8258,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/azzetnyoztlhzaftbbpaluoprxhpcpat.gif",
+    "name": "YOUNG STARS TOA",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 17471,
+        "username": "SecondSonVI",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 18584,
+        "username": "TheReviox",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 20180,
+        "username": "MrBlackjack",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/asynbqgunmidcocjqoodkkfcoudddziz.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/asynbqgunmidcocjqoodkkfcoudddziz.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 20956,
+        "username": "quar2k",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/ksqnokzeblciyeyloeyembimvxffjydn.gif\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/ksqnokzeblciyeyloeyembimvxffjydn.gif",
+        "kills": 0
+      },
+      {
+        "user_id": 38714,
+        "username": "xMANECAS",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aetvlisbzqlzkijottssgosycvdyryaa.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/aetvlisbzqlzkijottssgosycvdyryaa.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 40908,
+        "username": "Requadre",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gtswrmafysnodhbykrxenyfbpputcsmt.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gtswrmafysnodhbykrxenyfbpputcsmt.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 40910,
+        "username": "Thenderlost",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/zzmtmwpxxjxudxxvdpcplqbsmcmlwmme.gif\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/zzmtmwpxxjxudxxvdpcplqbsmcmlwmme.gif",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 8334,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/wigrukugnrrgffcluqrzjyobcnixgllu.jpg",
+    "name": "NOT SET",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 42515,
+        "username": "Pepsoalv",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/qyufsdjcjcbeprixzkeekqrlbwobawxs.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/qyufsdjcjcbeprixzkeekqrlbwobawxs.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 42526,
+        "username": "haHAA dysek",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/sdwaxwsworwlqkamsucvqwpzrfslufwn.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/sdwaxwsworwlqkamsucvqwpzrfslufwn.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 42529,
+        "username": "TurinekRobinekSk",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gsskvdufnzkamragagincuezoalchhch.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/gsskvdufnzkamragagincuezoalchhch.jpg",
+        "kills": 0
+      }
+    ]
+  },
+  {
+    "team_id": 8697,
+    "image_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/teams/edyvlsznkzoeuxhyodyxwuswepyomgws.jpg",
+    "name": "Vietnamese cats",
+    "kills": 0,
+    "score": 0,
+    "teamPlayers": [
+      {
+        "user_id": 41893,
+        "username": "Ilya_Golish",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 41962,
+        "username": "Kabzonich",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      },
+      {
+        "user_id": 42051,
+        "username": "Kuruma79",
+        "avatar": "<img class=\"lazyload\" src=\"https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/emfviniqaucibdeezjquzqzihykthqtc.jpg\" alt=\"\">",
+        "avatar_url": "https://mainlineeventssa.blob.core.windows.net/mainlineevents/profile/emfviniqaucibdeezjquzqzihykthqtc.jpg",
+        "kills": 0
+      },
+      {
+        "user_id": 43753,
+        "username": "YANZ0R666",
+        "avatar": "<img class=\"lazyload empty\" src=\"/img/profile-empty.png\" alt=\"\">",
+        "avatar_url": "/img/profile-empty.png",
+        "kills": 0
+      }
+    ]
+  }
+]
+},{}],2:[function(require,module,exports){
 module.exports=[
-  {
-    "name": "OPTIC GAMING",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png"
-  },
-  {
-    "name": "TSM",
-    "link": "assets/css/images/team_logos/IMG_Logo_TSM.png"
-  },
-  {
-    "name": "Cloud9",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Cloud9.png"
-  },
-  {
-    "name": "EnVyUs",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_EnVyUs.png"
-  },
-  {
-    "name": "Team Dignitas",
-    "link": "assets/css/images/team_logos/IMG_Logo_dignitas.png"
-  },
-  {
-    "name": "EVIL GENIUSES",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
-  },
-  {
-    "name": "Tempo Storm",
-    "link": "assets/css/images/team_logos/IMG_Logo_TempoStorm.png"
-  },
-  {
-    "name": "NRG Esports",
-    "link": "assets/css/images/team_logos/IMG_Logo_nrg.png"
-  },
-  {
-    "name": "NOVA ESPORTS",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Nova.png"
-  },
-  {
-    "name": "SPACE STATION",
-    "link": "assets/css/images/team_logos/IMG_Logo_SpaceStationGaming.png"
-  },
-  {
-    "name": "GHOST",
-    "link": "assets/css/images/team_logos/IMG_Logo_Ghost.png"
-  },
-  {
-    "name": "eUnited",
-    "link": "assets/css/images/team_logos/IMG_Logo_eunited.png"
-  },
-  {
-    "name": "Team Gates",
-    "link": "assets/css/images/team_logos/IMG_Logo_gates.png"
-  },
-  {
-    "name": "WILDCARD",
-    "link": "assets/css/images/team_logos/IMG_Logo_WildcardGaming.png"
-  },
-  {
-    "name": "SETTODESTROYX",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_STDX.png"
-  },
   {
     "name": "TOTALITY",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Totality.png"
   },
   {
-    "name": "GOD SQUAD",
-    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
+    "name": "EVIL GENIUSES",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_EvilGeniuses.png"
   },
-  {
-    "name": "Fable E-sports",
-    "link": "assets/css/images/team_logos/IMG_Logo_fable.png"
-  },
-  {
-    "name": "",
-    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
-  },
-  {
-    "name": "",
-    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
-  }
-  /*
   {
     "name": "OPTIC GAMING",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_OpticGaming.png"
@@ -100,7 +880,12 @@ module.exports=[
   {
     "name": "RENDER",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Render.png"
-  },{
+  },
+  {
+    "name": "GHOST",
+    "link": "assets/css/images/team_logos/IMG_Logo_Ghost.png"
+  },
+  {
     "name": "SHOOT TO KILL",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_ShootToKill.png"
   },
@@ -115,7 +900,12 @@ module.exports=[
   {
     "name": "MEME ENTHUSIASTS",
     "link": "assets/css/images/team_logos/IMG_Logo_MemeEnthusiasts.png"
-  },{
+  },
+  {
+    "name": "GOD SQUAD",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Godsquad.png"
+  },
+  {
     "name": "PECADORES",
     "link": "assets/css/images/team_logos/IMG_Logo_Pecadores.png"
   },
@@ -128,6 +918,10 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_LogoTeam_rush.png"
   },
   {
+    "name": "NOVA ESPORTS",
+    "link": "assets/css/images/team_logos/IMG_LogoTeam_Nova.png"
+  },
+  {
     "name": "DUEL",
     "link": "assets/css/images/team_logos/IMG_Logo_DUEL.png"
   },
@@ -138,18 +932,18 @@ module.exports=[
   {
     "name": "HAVOK",
     "link": "assets/css/images/team_logos/IMG_LogoTeam_Havok.png"
-  }
-  */
+  },
 ]
 
-},{}],2:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 var $ = require('jquery');
 require('../../tooltipster');
 
 var teams = require('../data/teams.json');
+var res = require('../data/ladder.json');
 
 var componentCreator = require('./components');
-
+var ladderData = require('./ladder');
 
 $(document).ready(function () {
 
@@ -171,6 +965,8 @@ $(document).ready(function () {
             onMobile = false;
         }
     }
+
+    let data = ladderData.getData(6565);
 
     // Execute on load
     checkWidth();
@@ -242,7 +1038,7 @@ $(document).ready(function () {
 
 
 
-},{"../../tooltipster":5,"../data/teams.json":1,"./components":3,"jquery":4}],3:[function(require,module,exports){
+},{"../../tooltipster":7,"../data/ladder.json":1,"../data/teams.json":2,"./components":4,"./ladder":5,"jquery":6}],4:[function(require,module,exports){
 var $ = require('jquery');
 var teams = require('../data/teams.json');
 
@@ -276,9 +1072,96 @@ module.exports = componentsCreator = {
 
 
 
-},{"../data/teams.json":1,"jquery":4}],4:[function(require,module,exports){
+},{"../data/teams.json":2,"jquery":6}],5:[function(require,module,exports){
+var $ = require('jquery');
+
+module.exports = ladderData = {
+  getData: function (id) {
+    const headers = new Headers({
+      'Access-Control-Allow-Origin':'*',
+      'Authorization': 'Bearer eh4Ffs-TzraPRkIoNocoqKUFIpCV4GLjOuBfrMA5'
+    });
+    
+    fetch('https://api.mainline.gg/v1/events/scores-by-match?id='+ id,
+      { 
+        mode: 'cors',
+        headers: headers
+      })
+      .then(
+        function(res) {
+          if (res.status !== 200) {
+            console.log('Looks like there was a problem. Status Code: ' +
+              res.status);
+            return;
+          }
+          res.json().then(function(data) {
+            ladderData.render(data);
+            ladderData.addEvents();            
+          });
+        }
+      )
+      .catch(function(err) {
+        console.log('Fetch Error :-S', err);
+      });
+  },
+
+  render: function(teams) {
+    $('.ladder__body').empty();
+
+    teams.forEach(function (team, index) {
+      $('.ladder__body').append(
+        `<div id=${'ladder__' + (index + 1)} class="ladder__item">
+        <div class="ladder__row">
+          <div><span class="ladder__index">${index + 1}</span></div>
+          <div class="ladder__team">
+            <img class="ladder__image" src=${team.image_url} alt="" />
+            <span>${team.name}</span>
+          </div>
+          <span>${team.kills}</span>
+          <span>${team.score}</span>
+          <span>
+            <a href="#" id=${index + 1} class="ladder__trigger">
+              <i class="arrow"></i>
+            </a>
+          </span>          
+        </div>
+        <div class="ladder__players">
+          ${team.teamPlayers.map((player, index) => {
+            return `<div class="ladder__player">
+                <span></span>
+                <div class="ladder__team">
+                  <img class="ladder__image" src=${player.avatar_url} alt="" />
+                  <span>${player.username}</span>
+                </div>
+                <span>${player.kills}</span>
+                <span></span>
+                <span></span>
+              </div>`
+            }
+            ).join('')}
+          </div>
+        </div>`
+      )
+
+    })
+  },
+
+  addEvents: function () {
+   $('.ladder__trigger').on('click', function(event) {
+      event.preventDefault();
+      if ( $('#ladder__'+ (this.id)).hasClass('active') ) {
+        $('.ladder__item').removeClass('active');            
+      } else {
+        $('.ladder__item').removeClass('active');            
+        $('#ladder__'+ (this.id)).addClass('active');
+      }        
+    });
+  }
+}
+
+},{"jquery":6}],6:[function(require,module,exports){
 /*!
- * jQuery JavaScript Library v3.2.1
+ * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
  *
  * Includes Sizzle.js
@@ -288,7 +1171,7 @@ module.exports = componentsCreator = {
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2017-03-20T18:59Z
+ * Date: 2018-01-20T17:24Z
  */
 ( function( global, factory ) {
 
@@ -350,16 +1233,57 @@ var ObjectFunctionString = fnToString.call( Object );
 
 var support = {};
 
+var isFunction = function isFunction( obj ) {
+
+      // Support: Chrome <=57, Firefox <=52
+      // In some browsers, typeof returns "function" for HTML <object> elements
+      // (i.e., `typeof document.createElement( "object" ) === "function"`).
+      // We don't want to classify *any* DOM node as a function.
+      return typeof obj === "function" && typeof obj.nodeType !== "number";
+  };
 
 
-	function DOMEval( code, doc ) {
+var isWindow = function isWindow( obj ) {
+		return obj != null && obj === obj.window;
+	};
+
+
+
+
+	var preservedScriptAttributes = {
+		type: true,
+		src: true,
+		noModule: true
+	};
+
+	function DOMEval( code, doc, node ) {
 		doc = doc || document;
 
-		var script = doc.createElement( "script" );
+		var i,
+			script = doc.createElement( "script" );
 
 		script.text = code;
+		if ( node ) {
+			for ( i in preservedScriptAttributes ) {
+				if ( node[ i ] ) {
+					script[ i ] = node[ i ];
+				}
+			}
+		}
 		doc.head.appendChild( script ).parentNode.removeChild( script );
 	}
+
+
+function toType( obj ) {
+	if ( obj == null ) {
+		return obj + "";
+	}
+
+	// Support: Android <=2.3 only (functionish RegExp)
+	return typeof obj === "object" || typeof obj === "function" ?
+		class2type[ toString.call( obj ) ] || "object" :
+		typeof obj;
+}
 /* global Symbol */
 // Defining this global in .eslintrc.json would create a danger of using the global
 // unguarded in another place, it seems safer to define global only for this module
@@ -367,7 +1291,7 @@ var support = {};
 
 
 var
-	version = "3.2.1",
+	version = "3.3.1",
 
 	// Define a local copy of jQuery
 	jQuery = function( selector, context ) {
@@ -379,16 +1303,7 @@ var
 
 	// Support: Android <=4.0 only
 	// Make sure we trim BOM and NBSP
-	rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,
-
-	// Matches dashed string for camelizing
-	rmsPrefix = /^-ms-/,
-	rdashAlpha = /-([a-z])/g,
-
-	// Used by jQuery.camelCase as callback to replace()
-	fcamelCase = function( all, letter ) {
-		return letter.toUpperCase();
-	};
+	rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
 
 jQuery.fn = jQuery.prototype = {
 
@@ -488,7 +1403,7 @@ jQuery.extend = jQuery.fn.extend = function() {
 	}
 
 	// Handle case when target is a string or something (possible in deep copy)
-	if ( typeof target !== "object" && !jQuery.isFunction( target ) ) {
+	if ( typeof target !== "object" && !isFunction( target ) ) {
 		target = {};
 	}
 
@@ -554,28 +1469,6 @@ jQuery.extend( {
 
 	noop: function() {},
 
-	isFunction: function( obj ) {
-		return jQuery.type( obj ) === "function";
-	},
-
-	isWindow: function( obj ) {
-		return obj != null && obj === obj.window;
-	},
-
-	isNumeric: function( obj ) {
-
-		// As of jQuery 3.0, isNumeric is limited to
-		// strings and numbers (primitives or objects)
-		// that can be coerced to finite numbers (gh-2662)
-		var type = jQuery.type( obj );
-		return ( type === "number" || type === "string" ) &&
-
-			// parseFloat NaNs numeric-cast false positives ("")
-			// ...but misinterprets leading-number strings, particularly hex literals ("0x...")
-			// subtraction forces infinities to NaN
-			!isNaN( obj - parseFloat( obj ) );
-	},
-
 	isPlainObject: function( obj ) {
 		var proto, Ctor;
 
@@ -609,27 +1502,9 @@ jQuery.extend( {
 		return true;
 	},
 
-	type: function( obj ) {
-		if ( obj == null ) {
-			return obj + "";
-		}
-
-		// Support: Android <=2.3 only (functionish RegExp)
-		return typeof obj === "object" || typeof obj === "function" ?
-			class2type[ toString.call( obj ) ] || "object" :
-			typeof obj;
-	},
-
 	// Evaluates a script in a global context
 	globalEval: function( code ) {
 		DOMEval( code );
-	},
-
-	// Convert dashed to camelCase; used by the css and data modules
-	// Support: IE <=9 - 11, Edge 12 - 13
-	// Microsoft forgot to hump their vendor prefix (#9572)
-	camelCase: function( string ) {
-		return string.replace( rmsPrefix, "ms-" ).replace( rdashAlpha, fcamelCase );
 	},
 
 	each: function( obj, callback ) {
@@ -752,37 +1627,6 @@ jQuery.extend( {
 	// A global GUID counter for objects
 	guid: 1,
 
-	// Bind a function to a context, optionally partially applying any
-	// arguments.
-	proxy: function( fn, context ) {
-		var tmp, args, proxy;
-
-		if ( typeof context === "string" ) {
-			tmp = fn[ context ];
-			context = fn;
-			fn = tmp;
-		}
-
-		// Quick check to determine if target is callable, in the spec
-		// this throws a TypeError, but we will just return undefined.
-		if ( !jQuery.isFunction( fn ) ) {
-			return undefined;
-		}
-
-		// Simulated bind
-		args = slice.call( arguments, 2 );
-		proxy = function() {
-			return fn.apply( context || this, args.concat( slice.call( arguments ) ) );
-		};
-
-		// Set the guid of unique handler to the same of original handler, so it can be removed
-		proxy.guid = fn.guid = fn.guid || jQuery.guid++;
-
-		return proxy;
-	},
-
-	now: Date.now,
-
 	// jQuery.support is not used in Core but other projects attach their
 	// properties to it so it needs to exist.
 	support: support
@@ -805,9 +1649,9 @@ function isArrayLike( obj ) {
 	// hasOwn isn't used here due to false negatives
 	// regarding Nodelist length in IE
 	var length = !!obj && "length" in obj && obj.length,
-		type = jQuery.type( obj );
+		type = toType( obj );
 
-	if ( type === "function" || jQuery.isWindow( obj ) ) {
+	if ( isFunction( obj ) || isWindow( obj ) ) {
 		return false;
 	}
 
@@ -3127,11 +3971,9 @@ var rsingleTag = ( /^<([a-z][^\/\0>:\x20\t\r\n\f]*)[\x20\t\r\n\f]*\/?>(?:<\/\1>|
 
 
 
-var risSimple = /^.[^:#\[\.,]*$/;
-
 // Implement the identical functionality for filter and not
 function winnow( elements, qualifier, not ) {
-	if ( jQuery.isFunction( qualifier ) ) {
+	if ( isFunction( qualifier ) ) {
 		return jQuery.grep( elements, function( elem, i ) {
 			return !!qualifier.call( elem, i, elem ) !== not;
 		} );
@@ -3151,16 +3993,8 @@ function winnow( elements, qualifier, not ) {
 		} );
 	}
 
-	// Simple selector that can be filtered directly, removing non-Elements
-	if ( risSimple.test( qualifier ) ) {
-		return jQuery.filter( qualifier, elements, not );
-	}
-
-	// Complex selector, compare the two sets, removing non-Elements
-	qualifier = jQuery.filter( qualifier, elements );
-	return jQuery.grep( elements, function( elem ) {
-		return ( indexOf.call( qualifier, elem ) > -1 ) !== not && elem.nodeType === 1;
-	} );
+	// Filtered directly for both simple and complex selectors
+	return jQuery.filter( qualifier, elements, not );
 }
 
 jQuery.filter = function( expr, elems, not ) {
@@ -3281,7 +4115,7 @@ var rootjQuery,
 						for ( match in context ) {
 
 							// Properties of context are called as methods if possible
-							if ( jQuery.isFunction( this[ match ] ) ) {
+							if ( isFunction( this[ match ] ) ) {
 								this[ match ]( context[ match ] );
 
 							// ...and otherwise set as attributes
@@ -3324,7 +4158,7 @@ var rootjQuery,
 
 		// HANDLE: $(function)
 		// Shortcut for document ready
-		} else if ( jQuery.isFunction( selector ) ) {
+		} else if ( isFunction( selector ) ) {
 			return root.ready !== undefined ?
 				root.ready( selector ) :
 
@@ -3639,11 +4473,11 @@ jQuery.Callbacks = function( options ) {
 
 					( function add( args ) {
 						jQuery.each( args, function( _, arg ) {
-							if ( jQuery.isFunction( arg ) ) {
+							if ( isFunction( arg ) ) {
 								if ( !options.unique || !self.has( arg ) ) {
 									list.push( arg );
 								}
-							} else if ( arg && arg.length && jQuery.type( arg ) !== "string" ) {
+							} else if ( arg && arg.length && toType( arg ) !== "string" ) {
 
 								// Inspect recursively
 								add( arg );
@@ -3758,11 +4592,11 @@ function adoptValue( value, resolve, reject, noValue ) {
 	try {
 
 		// Check for promise aspect first to privilege synchronous behavior
-		if ( value && jQuery.isFunction( ( method = value.promise ) ) ) {
+		if ( value && isFunction( ( method = value.promise ) ) ) {
 			method.call( value ).done( resolve ).fail( reject );
 
 		// Other thenables
-		} else if ( value && jQuery.isFunction( ( method = value.then ) ) ) {
+		} else if ( value && isFunction( ( method = value.then ) ) ) {
 			method.call( value, resolve, reject );
 
 		// Other non-thenables
@@ -3820,14 +4654,14 @@ jQuery.extend( {
 						jQuery.each( tuples, function( i, tuple ) {
 
 							// Map tuples (progress, done, fail) to arguments (done, fail, progress)
-							var fn = jQuery.isFunction( fns[ tuple[ 4 ] ] ) && fns[ tuple[ 4 ] ];
+							var fn = isFunction( fns[ tuple[ 4 ] ] ) && fns[ tuple[ 4 ] ];
 
 							// deferred.progress(function() { bind to newDefer or newDefer.notify })
 							// deferred.done(function() { bind to newDefer or newDefer.resolve })
 							// deferred.fail(function() { bind to newDefer or newDefer.reject })
 							deferred[ tuple[ 1 ] ]( function() {
 								var returned = fn && fn.apply( this, arguments );
-								if ( returned && jQuery.isFunction( returned.promise ) ) {
+								if ( returned && isFunction( returned.promise ) ) {
 									returned.promise()
 										.progress( newDefer.notify )
 										.done( newDefer.resolve )
@@ -3881,7 +4715,7 @@ jQuery.extend( {
 										returned.then;
 
 									// Handle a returned thenable
-									if ( jQuery.isFunction( then ) ) {
+									if ( isFunction( then ) ) {
 
 										// Special processors (notify) just wait for resolution
 										if ( special ) {
@@ -3977,7 +4811,7 @@ jQuery.extend( {
 							resolve(
 								0,
 								newDefer,
-								jQuery.isFunction( onProgress ) ?
+								isFunction( onProgress ) ?
 									onProgress :
 									Identity,
 								newDefer.notifyWith
@@ -3989,7 +4823,7 @@ jQuery.extend( {
 							resolve(
 								0,
 								newDefer,
-								jQuery.isFunction( onFulfilled ) ?
+								isFunction( onFulfilled ) ?
 									onFulfilled :
 									Identity
 							)
@@ -4000,7 +4834,7 @@ jQuery.extend( {
 							resolve(
 								0,
 								newDefer,
-								jQuery.isFunction( onRejected ) ?
+								isFunction( onRejected ) ?
 									onRejected :
 									Thrower
 							)
@@ -4040,8 +4874,15 @@ jQuery.extend( {
 					// fulfilled_callbacks.disable
 					tuples[ 3 - i ][ 2 ].disable,
 
+					// rejected_handlers.disable
+					// fulfilled_handlers.disable
+					tuples[ 3 - i ][ 3 ].disable,
+
 					// progress_callbacks.lock
-					tuples[ 0 ][ 2 ].lock
+					tuples[ 0 ][ 2 ].lock,
+
+					// progress_handlers.lock
+					tuples[ 0 ][ 3 ].lock
 				);
 			}
 
@@ -4111,7 +4952,7 @@ jQuery.extend( {
 
 			// Use .then() to unwrap secondary thenables (cf. gh-3000)
 			if ( master.state() === "pending" ||
-				jQuery.isFunction( resolveValues[ i ] && resolveValues[ i ].then ) ) {
+				isFunction( resolveValues[ i ] && resolveValues[ i ].then ) ) {
 
 				return master.then();
 			}
@@ -4239,7 +5080,7 @@ var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 		bulk = key == null;
 
 	// Sets many values
-	if ( jQuery.type( key ) === "object" ) {
+	if ( toType( key ) === "object" ) {
 		chainable = true;
 		for ( i in key ) {
 			access( elems, fn, i, key[ i ], true, emptyGet, raw );
@@ -4249,7 +5090,7 @@ var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 	} else if ( value !== undefined ) {
 		chainable = true;
 
-		if ( !jQuery.isFunction( value ) ) {
+		if ( !isFunction( value ) ) {
 			raw = true;
 		}
 
@@ -4291,6 +5132,23 @@ var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 
 	return len ? fn( elems[ 0 ], key ) : emptyGet;
 };
+
+
+// Matches dashed string for camelizing
+var rmsPrefix = /^-ms-/,
+	rdashAlpha = /-([a-z])/g;
+
+// Used by camelCase as callback to replace()
+function fcamelCase( all, letter ) {
+	return letter.toUpperCase();
+}
+
+// Convert dashed to camelCase; used by the css and data modules
+// Support: IE <=9 - 11, Edge 12 - 15
+// Microsoft forgot to hump their vendor prefix (#9572)
+function camelCase( string ) {
+	return string.replace( rmsPrefix, "ms-" ).replace( rdashAlpha, fcamelCase );
+}
 var acceptData = function( owner ) {
 
 	// Accepts only:
@@ -4353,14 +5211,14 @@ Data.prototype = {
 		// Handle: [ owner, key, value ] args
 		// Always use camelCase key (gh-2257)
 		if ( typeof data === "string" ) {
-			cache[ jQuery.camelCase( data ) ] = value;
+			cache[ camelCase( data ) ] = value;
 
 		// Handle: [ owner, { properties } ] args
 		} else {
 
 			// Copy the properties one-by-one to the cache object
 			for ( prop in data ) {
-				cache[ jQuery.camelCase( prop ) ] = data[ prop ];
+				cache[ camelCase( prop ) ] = data[ prop ];
 			}
 		}
 		return cache;
@@ -4370,7 +5228,7 @@ Data.prototype = {
 			this.cache( owner ) :
 
 			// Always use camelCase key (gh-2257)
-			owner[ this.expando ] && owner[ this.expando ][ jQuery.camelCase( key ) ];
+			owner[ this.expando ] && owner[ this.expando ][ camelCase( key ) ];
 	},
 	access: function( owner, key, value ) {
 
@@ -4418,9 +5276,9 @@ Data.prototype = {
 
 				// If key is an array of keys...
 				// We always set camelCase keys, so remove that.
-				key = key.map( jQuery.camelCase );
+				key = key.map( camelCase );
 			} else {
-				key = jQuery.camelCase( key );
+				key = camelCase( key );
 
 				// If a key with the spaces exists, use it.
 				// Otherwise, create an array by matching non-whitespace
@@ -4566,7 +5424,7 @@ jQuery.fn.extend( {
 						if ( attrs[ i ] ) {
 							name = attrs[ i ].name;
 							if ( name.indexOf( "data-" ) === 0 ) {
-								name = jQuery.camelCase( name.slice( 5 ) );
+								name = camelCase( name.slice( 5 ) );
 								dataAttr( elem, name, data[ name ] );
 							}
 						}
@@ -4813,8 +5671,7 @@ var swap = function( elem, options, callback, args ) {
 
 
 function adjustCSS( elem, prop, valueParts, tween ) {
-	var adjusted,
-		scale = 1,
+	var adjusted, scale,
 		maxIterations = 20,
 		currentValue = tween ?
 			function() {
@@ -4832,30 +5689,33 @@ function adjustCSS( elem, prop, valueParts, tween ) {
 
 	if ( initialInUnit && initialInUnit[ 3 ] !== unit ) {
 
+		// Support: Firefox <=54
+		// Halve the iteration target value to prevent interference from CSS upper bounds (gh-2144)
+		initial = initial / 2;
+
 		// Trust units reported by jQuery.css
 		unit = unit || initialInUnit[ 3 ];
-
-		// Make sure we update the tween properties later on
-		valueParts = valueParts || [];
 
 		// Iteratively approximate from a nonzero starting point
 		initialInUnit = +initial || 1;
 
-		do {
+		while ( maxIterations-- ) {
 
-			// If previous iteration zeroed out, double until we get *something*.
-			// Use string for doubling so we don't accidentally see scale as unchanged below
-			scale = scale || ".5";
-
-			// Adjust and apply
-			initialInUnit = initialInUnit / scale;
+			// Evaluate and update our best guess (doubling guesses that zero out).
+			// Finish if the scale equals or crosses 1 (making the old*new product non-positive).
 			jQuery.style( elem, prop, initialInUnit + unit );
+			if ( ( 1 - scale ) * ( 1 - ( scale = currentValue() / initial || 0.5 ) ) <= 0 ) {
+				maxIterations = 0;
+			}
+			initialInUnit = initialInUnit / scale;
 
-		// Update scale, tolerating zero or NaN from tween.cur()
-		// Break the loop if scale is unchanged or perfect, or if we've just had enough.
-		} while (
-			scale !== ( scale = currentValue() / initial ) && scale !== 1 && --maxIterations
-		);
+		}
+
+		initialInUnit = initialInUnit * 2;
+		jQuery.style( elem, prop, initialInUnit + unit );
+
+		// Make sure we update the tween properties later on
+		valueParts = valueParts || [];
 	}
 
 	if ( valueParts ) {
@@ -4973,7 +5833,7 @@ var rcheckableType = ( /^(?:checkbox|radio)$/i );
 
 var rtagName = ( /<([a-z][^\/\0>\x20\t\r\n\f]+)/i );
 
-var rscriptType = ( /^$|\/(?:java|ecma)script/i );
+var rscriptType = ( /^$|^module$|\/(?:java|ecma)script/i );
 
 
 
@@ -5055,7 +5915,7 @@ function buildFragment( elems, context, scripts, selection, ignored ) {
 		if ( elem || elem === 0 ) {
 
 			// Add nodes directly
-			if ( jQuery.type( elem ) === "object" ) {
+			if ( toType( elem ) === "object" ) {
 
 				// Support: Android <=4.0 only, PhantomJS 1 only
 				// push.apply(_, arraylike) throws on ancient WebKit
@@ -5565,7 +6425,7 @@ jQuery.event = {
 			enumerable: true,
 			configurable: true,
 
-			get: jQuery.isFunction( hook ) ?
+			get: isFunction( hook ) ?
 				function() {
 					if ( this.originalEvent ) {
 							return hook( this.originalEvent );
@@ -5700,7 +6560,7 @@ jQuery.Event = function( src, props ) {
 	}
 
 	// Create a timestamp if incoming event doesn't have one
-	this.timeStamp = src && src.timeStamp || jQuery.now();
+	this.timeStamp = src && src.timeStamp || Date.now();
 
 	// Mark it as fixed
 	this[ jQuery.expando ] = true;
@@ -5899,14 +6759,13 @@ var
 
 	/* eslint-enable */
 
-	// Support: IE <=10 - 11, Edge 12 - 13
+	// Support: IE <=10 - 11, Edge 12 - 13 only
 	// In IE/Edge using regex groups here causes severe slowdowns.
 	// See https://connect.microsoft.com/IE/feedback/details/1736512/
 	rnoInnerhtml = /<script|<style|<link/i,
 
 	// checked="checked" or checked
 	rchecked = /checked\s*(?:[^=]|=\s*.checked.)/i,
-	rscriptTypeMasked = /^true\/(.*)/,
 	rcleanScript = /^\s*<!(?:\[CDATA\[|--)|(?:\]\]|--)>\s*$/g;
 
 // Prefer a tbody over its parent table for containing new rows
@@ -5914,7 +6773,7 @@ function manipulationTarget( elem, content ) {
 	if ( nodeName( elem, "table" ) &&
 		nodeName( content.nodeType !== 11 ? content : content.firstChild, "tr" ) ) {
 
-		return jQuery( ">tbody", elem )[ 0 ] || elem;
+		return jQuery( elem ).children( "tbody" )[ 0 ] || elem;
 	}
 
 	return elem;
@@ -5926,10 +6785,8 @@ function disableScript( elem ) {
 	return elem;
 }
 function restoreScript( elem ) {
-	var match = rscriptTypeMasked.exec( elem.type );
-
-	if ( match ) {
-		elem.type = match[ 1 ];
+	if ( ( elem.type || "" ).slice( 0, 5 ) === "true/" ) {
+		elem.type = elem.type.slice( 5 );
 	} else {
 		elem.removeAttribute( "type" );
 	}
@@ -5995,15 +6852,15 @@ function domManip( collection, args, callback, ignored ) {
 		l = collection.length,
 		iNoClone = l - 1,
 		value = args[ 0 ],
-		isFunction = jQuery.isFunction( value );
+		valueIsFunction = isFunction( value );
 
 	// We can't cloneNode fragments that contain checked, in WebKit
-	if ( isFunction ||
+	if ( valueIsFunction ||
 			( l > 1 && typeof value === "string" &&
 				!support.checkClone && rchecked.test( value ) ) ) {
 		return collection.each( function( index ) {
 			var self = collection.eq( index );
-			if ( isFunction ) {
+			if ( valueIsFunction ) {
 				args[ 0 ] = value.call( this, index, self.html() );
 			}
 			domManip( self, args, callback, ignored );
@@ -6057,14 +6914,14 @@ function domManip( collection, args, callback, ignored ) {
 						!dataPriv.access( node, "globalEval" ) &&
 						jQuery.contains( doc, node ) ) {
 
-						if ( node.src ) {
+						if ( node.src && ( node.type || "" ).toLowerCase()  !== "module" ) {
 
 							// Optional AJAX dependency, but won't run scripts if not present
 							if ( jQuery._evalUrl ) {
 								jQuery._evalUrl( node.src );
 							}
 						} else {
-							DOMEval( node.textContent.replace( rcleanScript, "" ), doc );
+							DOMEval( node.textContent.replace( rcleanScript, "" ), doc, node );
 						}
 					}
 				}
@@ -6344,8 +7201,6 @@ jQuery.each( {
 		return this.pushStack( ret );
 	};
 } );
-var rmargin = ( /^margin/ );
-
 var rnumnonpx = new RegExp( "^(" + pnum + ")(?!px)[a-z%]+$", "i" );
 
 var getStyles = function( elem ) {
@@ -6362,6 +7217,8 @@ var getStyles = function( elem ) {
 		return view.getComputedStyle( elem );
 	};
 
+var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
+
 
 
 ( function() {
@@ -6375,25 +7232,33 @@ var getStyles = function( elem ) {
 			return;
 		}
 
+		container.style.cssText = "position:absolute;left:-11111px;width:60px;" +
+			"margin-top:1px;padding:0;border:0";
 		div.style.cssText =
-			"box-sizing:border-box;" +
-			"position:relative;display:block;" +
+			"position:relative;display:block;box-sizing:border-box;overflow:scroll;" +
 			"margin:auto;border:1px;padding:1px;" +
-			"top:1%;width:50%";
-		div.innerHTML = "";
-		documentElement.appendChild( container );
+			"width:60%;top:1%";
+		documentElement.appendChild( container ).appendChild( div );
 
 		var divStyle = window.getComputedStyle( div );
 		pixelPositionVal = divStyle.top !== "1%";
 
 		// Support: Android 4.0 - 4.3 only, Firefox <=3 - 44
-		reliableMarginLeftVal = divStyle.marginLeft === "2px";
-		boxSizingReliableVal = divStyle.width === "4px";
+		reliableMarginLeftVal = roundPixelMeasures( divStyle.marginLeft ) === 12;
 
-		// Support: Android 4.0 - 4.3 only
+		// Support: Android 4.0 - 4.3 only, Safari <=9.1 - 10.1, iOS <=7.0 - 9.3
 		// Some styles come back with percentage values, even though they shouldn't
-		div.style.marginRight = "50%";
-		pixelMarginRightVal = divStyle.marginRight === "4px";
+		div.style.right = "60%";
+		pixelBoxStylesVal = roundPixelMeasures( divStyle.right ) === 36;
+
+		// Support: IE 9 - 11 only
+		// Detect misreporting of content dimensions for box-sizing:border-box elements
+		boxSizingReliableVal = roundPixelMeasures( divStyle.width ) === 36;
+
+		// Support: IE 9 only
+		// Detect overflow:scroll screwiness (gh-3699)
+		div.style.position = "absolute";
+		scrollboxSizeVal = div.offsetWidth === 36 || "absolute";
 
 		documentElement.removeChild( container );
 
@@ -6402,7 +7267,12 @@ var getStyles = function( elem ) {
 		div = null;
 	}
 
-	var pixelPositionVal, boxSizingReliableVal, pixelMarginRightVal, reliableMarginLeftVal,
+	function roundPixelMeasures( measure ) {
+		return Math.round( parseFloat( measure ) );
+	}
+
+	var pixelPositionVal, boxSizingReliableVal, scrollboxSizeVal, pixelBoxStylesVal,
+		reliableMarginLeftVal,
 		container = document.createElement( "div" ),
 		div = document.createElement( "div" );
 
@@ -6417,26 +7287,26 @@ var getStyles = function( elem ) {
 	div.cloneNode( true ).style.backgroundClip = "";
 	support.clearCloneStyle = div.style.backgroundClip === "content-box";
 
-	container.style.cssText = "border:0;width:8px;height:0;top:0;left:-9999px;" +
-		"padding:0;margin-top:1px;position:absolute";
-	container.appendChild( div );
-
 	jQuery.extend( support, {
-		pixelPosition: function() {
-			computeStyleTests();
-			return pixelPositionVal;
-		},
 		boxSizingReliable: function() {
 			computeStyleTests();
 			return boxSizingReliableVal;
 		},
-		pixelMarginRight: function() {
+		pixelBoxStyles: function() {
 			computeStyleTests();
-			return pixelMarginRightVal;
+			return pixelBoxStylesVal;
+		},
+		pixelPosition: function() {
+			computeStyleTests();
+			return pixelPositionVal;
 		},
 		reliableMarginLeft: function() {
 			computeStyleTests();
 			return reliableMarginLeftVal;
+		},
+		scrollboxSize: function() {
+			computeStyleTests();
+			return scrollboxSizeVal;
 		}
 	} );
 } )();
@@ -6468,7 +7338,7 @@ function curCSS( elem, name, computed ) {
 		// but width seems to be reliably pixels.
 		// This is against the CSSOM draft spec:
 		// https://drafts.csswg.org/cssom/#resolved-values
-		if ( !support.pixelMarginRight() && rnumnonpx.test( ret ) && rmargin.test( name ) ) {
+		if ( !support.pixelBoxStyles() && rnumnonpx.test( ret ) && rboxStyle.test( name ) ) {
 
 			// Remember the original values
 			width = style.width;
@@ -6573,87 +7443,120 @@ function setPositiveNumber( elem, value, subtract ) {
 		value;
 }
 
-function augmentWidthOrHeight( elem, name, extra, isBorderBox, styles ) {
-	var i,
-		val = 0;
+function boxModelAdjustment( elem, dimension, box, isBorderBox, styles, computedVal ) {
+	var i = dimension === "width" ? 1 : 0,
+		extra = 0,
+		delta = 0;
 
-	// If we already have the right measurement, avoid augmentation
-	if ( extra === ( isBorderBox ? "border" : "content" ) ) {
-		i = 4;
-
-	// Otherwise initialize for horizontal or vertical properties
-	} else {
-		i = name === "width" ? 1 : 0;
+	// Adjustment may not be necessary
+	if ( box === ( isBorderBox ? "border" : "content" ) ) {
+		return 0;
 	}
 
 	for ( ; i < 4; i += 2 ) {
 
-		// Both box models exclude margin, so add it if we want it
-		if ( extra === "margin" ) {
-			val += jQuery.css( elem, extra + cssExpand[ i ], true, styles );
+		// Both box models exclude margin
+		if ( box === "margin" ) {
+			delta += jQuery.css( elem, box + cssExpand[ i ], true, styles );
 		}
 
-		if ( isBorderBox ) {
+		// If we get here with a content-box, we're seeking "padding" or "border" or "margin"
+		if ( !isBorderBox ) {
 
-			// border-box includes padding, so remove it if we want content
-			if ( extra === "content" ) {
-				val -= jQuery.css( elem, "padding" + cssExpand[ i ], true, styles );
+			// Add padding
+			delta += jQuery.css( elem, "padding" + cssExpand[ i ], true, styles );
+
+			// For "border" or "margin", add border
+			if ( box !== "padding" ) {
+				delta += jQuery.css( elem, "border" + cssExpand[ i ] + "Width", true, styles );
+
+			// But still keep track of it otherwise
+			} else {
+				extra += jQuery.css( elem, "border" + cssExpand[ i ] + "Width", true, styles );
 			}
 
-			// At this point, extra isn't border nor margin, so remove border
-			if ( extra !== "margin" ) {
-				val -= jQuery.css( elem, "border" + cssExpand[ i ] + "Width", true, styles );
-			}
+		// If we get here with a border-box (content + padding + border), we're seeking "content" or
+		// "padding" or "margin"
 		} else {
 
-			// At this point, extra isn't content, so add padding
-			val += jQuery.css( elem, "padding" + cssExpand[ i ], true, styles );
+			// For "content", subtract padding
+			if ( box === "content" ) {
+				delta -= jQuery.css( elem, "padding" + cssExpand[ i ], true, styles );
+			}
 
-			// At this point, extra isn't content nor padding, so add border
-			if ( extra !== "padding" ) {
-				val += jQuery.css( elem, "border" + cssExpand[ i ] + "Width", true, styles );
+			// For "content" or "padding", subtract border
+			if ( box !== "margin" ) {
+				delta -= jQuery.css( elem, "border" + cssExpand[ i ] + "Width", true, styles );
 			}
 		}
 	}
 
-	return val;
+	// Account for positive content-box scroll gutter when requested by providing computedVal
+	if ( !isBorderBox && computedVal >= 0 ) {
+
+		// offsetWidth/offsetHeight is a rounded sum of content, padding, scroll gutter, and border
+		// Assuming integer scroll gutter, subtract the rest and round down
+		delta += Math.max( 0, Math.ceil(
+			elem[ "offset" + dimension[ 0 ].toUpperCase() + dimension.slice( 1 ) ] -
+			computedVal -
+			delta -
+			extra -
+			0.5
+		) );
+	}
+
+	return delta;
 }
 
-function getWidthOrHeight( elem, name, extra ) {
+function getWidthOrHeight( elem, dimension, extra ) {
 
 	// Start with computed style
-	var valueIsBorderBox,
-		styles = getStyles( elem ),
-		val = curCSS( elem, name, styles ),
-		isBorderBox = jQuery.css( elem, "boxSizing", false, styles ) === "border-box";
+	var styles = getStyles( elem ),
+		val = curCSS( elem, dimension, styles ),
+		isBorderBox = jQuery.css( elem, "boxSizing", false, styles ) === "border-box",
+		valueIsBorderBox = isBorderBox;
 
-	// Computed unit is not pixels. Stop here and return.
+	// Support: Firefox <=54
+	// Return a confounding non-pixel value or feign ignorance, as appropriate.
 	if ( rnumnonpx.test( val ) ) {
-		return val;
+		if ( !extra ) {
+			return val;
+		}
+		val = "auto";
 	}
 
 	// Check for style in case a browser which returns unreliable values
 	// for getComputedStyle silently falls back to the reliable elem.style
-	valueIsBorderBox = isBorderBox &&
-		( support.boxSizingReliable() || val === elem.style[ name ] );
+	valueIsBorderBox = valueIsBorderBox &&
+		( support.boxSizingReliable() || val === elem.style[ dimension ] );
 
-	// Fall back to offsetWidth/Height when value is "auto"
+	// Fall back to offsetWidth/offsetHeight when value is "auto"
 	// This happens for inline elements with no explicit setting (gh-3571)
-	if ( val === "auto" ) {
-		val = elem[ "offset" + name[ 0 ].toUpperCase() + name.slice( 1 ) ];
+	// Support: Android <=4.1 - 4.3 only
+	// Also use offsetWidth/offsetHeight for misreported inline dimensions (gh-3602)
+	if ( val === "auto" ||
+		!parseFloat( val ) && jQuery.css( elem, "display", false, styles ) === "inline" ) {
+
+		val = elem[ "offset" + dimension[ 0 ].toUpperCase() + dimension.slice( 1 ) ];
+
+		// offsetWidth/offsetHeight provide border-box values
+		valueIsBorderBox = true;
 	}
 
-	// Normalize "", auto, and prepare for extra
+	// Normalize "" and auto
 	val = parseFloat( val ) || 0;
 
-	// Use the active box-sizing model to add/subtract irrelevant styles
+	// Adjust for the element's box model
 	return ( val +
-		augmentWidthOrHeight(
+		boxModelAdjustment(
 			elem,
-			name,
+			dimension,
 			extra || ( isBorderBox ? "border" : "content" ),
 			valueIsBorderBox,
-			styles
+			styles,
+
+			// Provide the current computed size to request scroll gutter calculation (gh-3589)
+			val
 		)
 	) + "px";
 }
@@ -6694,9 +7597,7 @@ jQuery.extend( {
 
 	// Add in properties whose names you wish to fix before
 	// setting or getting the value
-	cssProps: {
-		"float": "cssFloat"
-	},
+	cssProps: {},
 
 	// Get and set the style property on a DOM Node
 	style: function( elem, name, value, extra ) {
@@ -6708,7 +7609,7 @@ jQuery.extend( {
 
 		// Make sure that we're working with the right name
 		var ret, type, hooks,
-			origName = jQuery.camelCase( name ),
+			origName = camelCase( name ),
 			isCustomProp = rcustomProp.test( name ),
 			style = elem.style;
 
@@ -6776,7 +7677,7 @@ jQuery.extend( {
 
 	css: function( elem, name, extra, styles ) {
 		var val, num, hooks,
-			origName = jQuery.camelCase( name ),
+			origName = camelCase( name ),
 			isCustomProp = rcustomProp.test( name );
 
 		// Make sure that we're working with the right name. We don't
@@ -6814,8 +7715,8 @@ jQuery.extend( {
 	}
 } );
 
-jQuery.each( [ "height", "width" ], function( i, name ) {
-	jQuery.cssHooks[ name ] = {
+jQuery.each( [ "height", "width" ], function( i, dimension ) {
+	jQuery.cssHooks[ dimension ] = {
 		get: function( elem, computed, extra ) {
 			if ( computed ) {
 
@@ -6831,29 +7732,41 @@ jQuery.each( [ "height", "width" ], function( i, name ) {
 					// in IE throws an error.
 					( !elem.getClientRects().length || !elem.getBoundingClientRect().width ) ?
 						swap( elem, cssShow, function() {
-							return getWidthOrHeight( elem, name, extra );
+							return getWidthOrHeight( elem, dimension, extra );
 						} ) :
-						getWidthOrHeight( elem, name, extra );
+						getWidthOrHeight( elem, dimension, extra );
 			}
 		},
 
 		set: function( elem, value, extra ) {
 			var matches,
-				styles = extra && getStyles( elem ),
-				subtract = extra && augmentWidthOrHeight(
+				styles = getStyles( elem ),
+				isBorderBox = jQuery.css( elem, "boxSizing", false, styles ) === "border-box",
+				subtract = extra && boxModelAdjustment(
 					elem,
-					name,
+					dimension,
 					extra,
-					jQuery.css( elem, "boxSizing", false, styles ) === "border-box",
+					isBorderBox,
 					styles
 				);
+
+			// Account for unreliable border-box dimensions by comparing offset* to computed and
+			// faking a content-box to get border and padding (gh-3699)
+			if ( isBorderBox && support.scrollboxSize() === styles.position ) {
+				subtract -= Math.ceil(
+					elem[ "offset" + dimension[ 0 ].toUpperCase() + dimension.slice( 1 ) ] -
+					parseFloat( styles[ dimension ] ) -
+					boxModelAdjustment( elem, dimension, "border", false, styles ) -
+					0.5
+				);
+			}
 
 			// Convert to pixels if value adjustment is needed
 			if ( subtract && ( matches = rcssNum.exec( value ) ) &&
 				( matches[ 3 ] || "px" ) !== "px" ) {
 
-				elem.style[ name ] = value;
-				value = jQuery.css( elem, name );
+				elem.style[ dimension ] = value;
+				value = jQuery.css( elem, dimension );
 			}
 
 			return setPositiveNumber( elem, value, subtract );
@@ -6897,7 +7810,7 @@ jQuery.each( {
 		}
 	};
 
-	if ( !rmargin.test( prefix ) ) {
+	if ( prefix !== "margin" ) {
 		jQuery.cssHooks[ prefix + suffix ].set = setPositiveNumber;
 	}
 } );
@@ -7068,7 +7981,7 @@ function createFxNow() {
 	window.setTimeout( function() {
 		fxNow = undefined;
 	} );
-	return ( fxNow = jQuery.now() );
+	return ( fxNow = Date.now() );
 }
 
 // Generate parameters to create a standard animation
@@ -7172,9 +8085,10 @@ function defaultPrefilter( elem, props, opts ) {
 	// Restrict "overflow" and "display" styles during box animations
 	if ( isBox && elem.nodeType === 1 ) {
 
-		// Support: IE <=9 - 11, Edge 12 - 13
+		// Support: IE <=9 - 11, Edge 12 - 15
 		// Record all 3 overflow attributes because IE does not infer the shorthand
-		// from identically-valued overflowX and overflowY
+		// from identically-valued overflowX and overflowY and Edge just mirrors
+		// the overflowX value there.
 		opts.overflow = [ style.overflow, style.overflowX, style.overflowY ];
 
 		// Identify a display type, preferring old show/hide data over the CSS cascade
@@ -7282,7 +8196,7 @@ function propFilter( props, specialEasing ) {
 
 	// camelCase, specialEasing and expand cssHook pass
 	for ( index in props ) {
-		name = jQuery.camelCase( index );
+		name = camelCase( index );
 		easing = specialEasing[ name ];
 		value = props[ index ];
 		if ( Array.isArray( value ) ) {
@@ -7407,9 +8321,9 @@ function Animation( elem, properties, options ) {
 	for ( ; index < length; index++ ) {
 		result = Animation.prefilters[ index ].call( animation, elem, props, animation.opts );
 		if ( result ) {
-			if ( jQuery.isFunction( result.stop ) ) {
+			if ( isFunction( result.stop ) ) {
 				jQuery._queueHooks( animation.elem, animation.opts.queue ).stop =
-					jQuery.proxy( result.stop, result );
+					result.stop.bind( result );
 			}
 			return result;
 		}
@@ -7417,7 +8331,7 @@ function Animation( elem, properties, options ) {
 
 	jQuery.map( props, createTween, animation );
 
-	if ( jQuery.isFunction( animation.opts.start ) ) {
+	if ( isFunction( animation.opts.start ) ) {
 		animation.opts.start.call( elem, animation );
 	}
 
@@ -7450,7 +8364,7 @@ jQuery.Animation = jQuery.extend( Animation, {
 	},
 
 	tweener: function( props, callback ) {
-		if ( jQuery.isFunction( props ) ) {
+		if ( isFunction( props ) ) {
 			callback = props;
 			props = [ "*" ];
 		} else {
@@ -7482,9 +8396,9 @@ jQuery.Animation = jQuery.extend( Animation, {
 jQuery.speed = function( speed, easing, fn ) {
 	var opt = speed && typeof speed === "object" ? jQuery.extend( {}, speed ) : {
 		complete: fn || !fn && easing ||
-			jQuery.isFunction( speed ) && speed,
+			isFunction( speed ) && speed,
 		duration: speed,
-		easing: fn && easing || easing && !jQuery.isFunction( easing ) && easing
+		easing: fn && easing || easing && !isFunction( easing ) && easing
 	};
 
 	// Go to the end state if fx are off
@@ -7511,7 +8425,7 @@ jQuery.speed = function( speed, easing, fn ) {
 	opt.old = opt.complete;
 
 	opt.complete = function() {
-		if ( jQuery.isFunction( opt.old ) ) {
+		if ( isFunction( opt.old ) ) {
 			opt.old.call( this );
 		}
 
@@ -7675,7 +8589,7 @@ jQuery.fx.tick = function() {
 		i = 0,
 		timers = jQuery.timers;
 
-	fxNow = jQuery.now();
+	fxNow = Date.now();
 
 	for ( ; i < timers.length; i++ ) {
 		timer = timers[ i ];
@@ -8028,7 +8942,7 @@ jQuery.each( [
 
 
 	// Strip and collapse whitespace according to HTML spec
-	// https://html.spec.whatwg.org/multipage/infrastructure.html#strip-and-collapse-whitespace
+	// https://infra.spec.whatwg.org/#strip-and-collapse-ascii-whitespace
 	function stripAndCollapse( value ) {
 		var tokens = value.match( rnothtmlwhite ) || [];
 		return tokens.join( " " );
@@ -8039,20 +8953,30 @@ function getClass( elem ) {
 	return elem.getAttribute && elem.getAttribute( "class" ) || "";
 }
 
+function classesToArray( value ) {
+	if ( Array.isArray( value ) ) {
+		return value;
+	}
+	if ( typeof value === "string" ) {
+		return value.match( rnothtmlwhite ) || [];
+	}
+	return [];
+}
+
 jQuery.fn.extend( {
 	addClass: function( value ) {
 		var classes, elem, cur, curValue, clazz, j, finalValue,
 			i = 0;
 
-		if ( jQuery.isFunction( value ) ) {
+		if ( isFunction( value ) ) {
 			return this.each( function( j ) {
 				jQuery( this ).addClass( value.call( this, j, getClass( this ) ) );
 			} );
 		}
 
-		if ( typeof value === "string" && value ) {
-			classes = value.match( rnothtmlwhite ) || [];
+		classes = classesToArray( value );
 
+		if ( classes.length ) {
 			while ( ( elem = this[ i++ ] ) ) {
 				curValue = getClass( elem );
 				cur = elem.nodeType === 1 && ( " " + stripAndCollapse( curValue ) + " " );
@@ -8081,7 +9005,7 @@ jQuery.fn.extend( {
 		var classes, elem, cur, curValue, clazz, j, finalValue,
 			i = 0;
 
-		if ( jQuery.isFunction( value ) ) {
+		if ( isFunction( value ) ) {
 			return this.each( function( j ) {
 				jQuery( this ).removeClass( value.call( this, j, getClass( this ) ) );
 			} );
@@ -8091,9 +9015,9 @@ jQuery.fn.extend( {
 			return this.attr( "class", "" );
 		}
 
-		if ( typeof value === "string" && value ) {
-			classes = value.match( rnothtmlwhite ) || [];
+		classes = classesToArray( value );
 
+		if ( classes.length ) {
 			while ( ( elem = this[ i++ ] ) ) {
 				curValue = getClass( elem );
 
@@ -8123,13 +9047,14 @@ jQuery.fn.extend( {
 	},
 
 	toggleClass: function( value, stateVal ) {
-		var type = typeof value;
+		var type = typeof value,
+			isValidValue = type === "string" || Array.isArray( value );
 
-		if ( typeof stateVal === "boolean" && type === "string" ) {
+		if ( typeof stateVal === "boolean" && isValidValue ) {
 			return stateVal ? this.addClass( value ) : this.removeClass( value );
 		}
 
-		if ( jQuery.isFunction( value ) ) {
+		if ( isFunction( value ) ) {
 			return this.each( function( i ) {
 				jQuery( this ).toggleClass(
 					value.call( this, i, getClass( this ), stateVal ),
@@ -8141,12 +9066,12 @@ jQuery.fn.extend( {
 		return this.each( function() {
 			var className, i, self, classNames;
 
-			if ( type === "string" ) {
+			if ( isValidValue ) {
 
 				// Toggle individual class names
 				i = 0;
 				self = jQuery( this );
-				classNames = value.match( rnothtmlwhite ) || [];
+				classNames = classesToArray( value );
 
 				while ( ( className = classNames[ i++ ] ) ) {
 
@@ -8205,7 +9130,7 @@ var rreturn = /\r/g;
 
 jQuery.fn.extend( {
 	val: function( value ) {
-		var hooks, ret, isFunction,
+		var hooks, ret, valueIsFunction,
 			elem = this[ 0 ];
 
 		if ( !arguments.length ) {
@@ -8234,7 +9159,7 @@ jQuery.fn.extend( {
 			return;
 		}
 
-		isFunction = jQuery.isFunction( value );
+		valueIsFunction = isFunction( value );
 
 		return this.each( function( i ) {
 			var val;
@@ -8243,7 +9168,7 @@ jQuery.fn.extend( {
 				return;
 			}
 
-			if ( isFunction ) {
+			if ( valueIsFunction ) {
 				val = value.call( this, i, jQuery( this ).val() );
 			} else {
 				val = value;
@@ -8385,18 +9310,24 @@ jQuery.each( [ "radio", "checkbox" ], function() {
 // Return jQuery for attributes-only inclusion
 
 
-var rfocusMorph = /^(?:focusinfocus|focusoutblur)$/;
+support.focusin = "onfocusin" in window;
+
+
+var rfocusMorph = /^(?:focusinfocus|focusoutblur)$/,
+	stopPropagationCallback = function( e ) {
+		e.stopPropagation();
+	};
 
 jQuery.extend( jQuery.event, {
 
 	trigger: function( event, data, elem, onlyHandlers ) {
 
-		var i, cur, tmp, bubbleType, ontype, handle, special,
+		var i, cur, tmp, bubbleType, ontype, handle, special, lastElement,
 			eventPath = [ elem || document ],
 			type = hasOwn.call( event, "type" ) ? event.type : event,
 			namespaces = hasOwn.call( event, "namespace" ) ? event.namespace.split( "." ) : [];
 
-		cur = tmp = elem = elem || document;
+		cur = lastElement = tmp = elem = elem || document;
 
 		// Don't do events on text and comment nodes
 		if ( elem.nodeType === 3 || elem.nodeType === 8 ) {
@@ -8448,7 +9379,7 @@ jQuery.extend( jQuery.event, {
 
 		// Determine event propagation path in advance, per W3C events spec (#9951)
 		// Bubble up to document, then to window; watch for a global ownerDocument var (#9724)
-		if ( !onlyHandlers && !special.noBubble && !jQuery.isWindow( elem ) ) {
+		if ( !onlyHandlers && !special.noBubble && !isWindow( elem ) ) {
 
 			bubbleType = special.delegateType || type;
 			if ( !rfocusMorph.test( bubbleType + type ) ) {
@@ -8468,7 +9399,7 @@ jQuery.extend( jQuery.event, {
 		// Fire handlers on the event path
 		i = 0;
 		while ( ( cur = eventPath[ i++ ] ) && !event.isPropagationStopped() ) {
-
+			lastElement = cur;
 			event.type = i > 1 ?
 				bubbleType :
 				special.bindType || type;
@@ -8500,7 +9431,7 @@ jQuery.extend( jQuery.event, {
 
 				// Call a native DOM method on the target with the same name as the event.
 				// Don't do default actions on window, that's where global variables be (#6170)
-				if ( ontype && jQuery.isFunction( elem[ type ] ) && !jQuery.isWindow( elem ) ) {
+				if ( ontype && isFunction( elem[ type ] ) && !isWindow( elem ) ) {
 
 					// Don't re-trigger an onFOO event when we call its FOO() method
 					tmp = elem[ ontype ];
@@ -8511,7 +9442,17 @@ jQuery.extend( jQuery.event, {
 
 					// Prevent re-triggering of the same event, since we already bubbled it above
 					jQuery.event.triggered = type;
+
+					if ( event.isPropagationStopped() ) {
+						lastElement.addEventListener( type, stopPropagationCallback );
+					}
+
 					elem[ type ]();
+
+					if ( event.isPropagationStopped() ) {
+						lastElement.removeEventListener( type, stopPropagationCallback );
+					}
+
 					jQuery.event.triggered = undefined;
 
 					if ( tmp ) {
@@ -8557,31 +9498,6 @@ jQuery.fn.extend( {
 } );
 
 
-jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
-	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
-	"change select submit keydown keypress keyup contextmenu" ).split( " " ),
-	function( i, name ) {
-
-	// Handle event binding
-	jQuery.fn[ name ] = function( data, fn ) {
-		return arguments.length > 0 ?
-			this.on( name, null, data, fn ) :
-			this.trigger( name );
-	};
-} );
-
-jQuery.fn.extend( {
-	hover: function( fnOver, fnOut ) {
-		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
-	}
-} );
-
-
-
-
-support.focusin = "onfocusin" in window;
-
-
 // Support: Firefox <=44
 // Firefox doesn't have focus(in | out) events
 // Related ticket - https://bugzilla.mozilla.org/show_bug.cgi?id=687787
@@ -8625,7 +9541,7 @@ if ( !support.focusin ) {
 }
 var location = window.location;
 
-var nonce = jQuery.now();
+var nonce = Date.now();
 
 var rquery = ( /\?/ );
 
@@ -8683,7 +9599,7 @@ function buildParams( prefix, obj, traditional, add ) {
 			}
 		} );
 
-	} else if ( !traditional && jQuery.type( obj ) === "object" ) {
+	} else if ( !traditional && toType( obj ) === "object" ) {
 
 		// Serialize object item.
 		for ( name in obj ) {
@@ -8705,7 +9621,7 @@ jQuery.param = function( a, traditional ) {
 		add = function( key, valueOrFunction ) {
 
 			// If value is a function, invoke it and use its return value
-			var value = jQuery.isFunction( valueOrFunction ) ?
+			var value = isFunction( valueOrFunction ) ?
 				valueOrFunction() :
 				valueOrFunction;
 
@@ -8823,7 +9739,7 @@ function addToPrefiltersOrTransports( structure ) {
 			i = 0,
 			dataTypes = dataTypeExpression.toLowerCase().match( rnothtmlwhite ) || [];
 
-		if ( jQuery.isFunction( func ) ) {
+		if ( isFunction( func ) ) {
 
 			// For each dataType in the dataTypeExpression
 			while ( ( dataType = dataTypes[ i++ ] ) ) {
@@ -9295,7 +10211,7 @@ jQuery.extend( {
 		if ( s.crossDomain == null ) {
 			urlAnchor = document.createElement( "a" );
 
-			// Support: IE <=8 - 11, Edge 12 - 13
+			// Support: IE <=8 - 11, Edge 12 - 15
 			// IE throws exception on accessing the href property if url is malformed,
 			// e.g. http://example.com:80x/
 			try {
@@ -9353,8 +10269,8 @@ jQuery.extend( {
 			// Remember the hash so we can put it back
 			uncached = s.url.slice( cacheURL.length );
 
-			// If data is available, append data to url
-			if ( s.data ) {
+			// If data is available and should be processed, append data to url
+			if ( s.data && ( s.processData || typeof s.data === "string" ) ) {
 				cacheURL += ( rquery.test( cacheURL ) ? "&" : "?" ) + s.data;
 
 				// #9682: remove data so that it's not used in an eventual retry
@@ -9591,7 +10507,7 @@ jQuery.each( [ "get", "post" ], function( i, method ) {
 	jQuery[ method ] = function( url, data, callback, type ) {
 
 		// Shift arguments if data argument was omitted
-		if ( jQuery.isFunction( data ) ) {
+		if ( isFunction( data ) ) {
 			type = type || callback;
 			callback = data;
 			data = undefined;
@@ -9629,7 +10545,7 @@ jQuery.fn.extend( {
 		var wrap;
 
 		if ( this[ 0 ] ) {
-			if ( jQuery.isFunction( html ) ) {
+			if ( isFunction( html ) ) {
 				html = html.call( this[ 0 ] );
 			}
 
@@ -9655,7 +10571,7 @@ jQuery.fn.extend( {
 	},
 
 	wrapInner: function( html ) {
-		if ( jQuery.isFunction( html ) ) {
+		if ( isFunction( html ) ) {
 			return this.each( function( i ) {
 				jQuery( this ).wrapInner( html.call( this, i ) );
 			} );
@@ -9675,10 +10591,10 @@ jQuery.fn.extend( {
 	},
 
 	wrap: function( html ) {
-		var isFunction = jQuery.isFunction( html );
+		var htmlIsFunction = isFunction( html );
 
 		return this.each( function( i ) {
-			jQuery( this ).wrapAll( isFunction ? html.call( this, i ) : html );
+			jQuery( this ).wrapAll( htmlIsFunction ? html.call( this, i ) : html );
 		} );
 	},
 
@@ -9770,7 +10686,8 @@ jQuery.ajaxTransport( function( options ) {
 					return function() {
 						if ( callback ) {
 							callback = errorCallback = xhr.onload =
-								xhr.onerror = xhr.onabort = xhr.onreadystatechange = null;
+								xhr.onerror = xhr.onabort = xhr.ontimeout =
+									xhr.onreadystatechange = null;
 
 							if ( type === "abort" ) {
 								xhr.abort();
@@ -9810,7 +10727,7 @@ jQuery.ajaxTransport( function( options ) {
 
 				// Listen to events
 				xhr.onload = callback();
-				errorCallback = xhr.onerror = callback( "error" );
+				errorCallback = xhr.onerror = xhr.ontimeout = callback( "error" );
 
 				// Support: IE 9 only
 				// Use onreadystatechange to replace onabort
@@ -9964,7 +10881,7 @@ jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 	if ( jsonProp || s.dataTypes[ 0 ] === "jsonp" ) {
 
 		// Get callback name, remembering preexisting value associated with it
-		callbackName = s.jsonpCallback = jQuery.isFunction( s.jsonpCallback ) ?
+		callbackName = s.jsonpCallback = isFunction( s.jsonpCallback ) ?
 			s.jsonpCallback() :
 			s.jsonpCallback;
 
@@ -10015,7 +10932,7 @@ jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 			}
 
 			// Call if it was a function and we have a response
-			if ( responseContainer && jQuery.isFunction( overwritten ) ) {
+			if ( responseContainer && isFunction( overwritten ) ) {
 				overwritten( responseContainer[ 0 ] );
 			}
 
@@ -10107,7 +11024,7 @@ jQuery.fn.load = function( url, params, callback ) {
 	}
 
 	// If it's a function
-	if ( jQuery.isFunction( params ) ) {
+	if ( isFunction( params ) ) {
 
 		// We assume that it's the callback
 		callback = params;
@@ -10215,7 +11132,7 @@ jQuery.offset = {
 			curLeft = parseFloat( curCSSLeft ) || 0;
 		}
 
-		if ( jQuery.isFunction( options ) ) {
+		if ( isFunction( options ) ) {
 
 			// Use jQuery.extend here to allow modification of coordinates argument (gh-1848)
 			options = options.call( elem, i, jQuery.extend( {}, curOffset ) );
@@ -10238,6 +11155,8 @@ jQuery.offset = {
 };
 
 jQuery.fn.extend( {
+
+	// offset() relates an element's border box to the document origin
 	offset: function( options ) {
 
 		// Preserve chaining for setter
@@ -10249,7 +11168,7 @@ jQuery.fn.extend( {
 				} );
 		}
 
-		var doc, docElem, rect, win,
+		var rect, win,
 			elem = this[ 0 ];
 
 		if ( !elem ) {
@@ -10264,50 +11183,52 @@ jQuery.fn.extend( {
 			return { top: 0, left: 0 };
 		}
 
+		// Get document-relative position by adding viewport scroll to viewport-relative gBCR
 		rect = elem.getBoundingClientRect();
-
-		doc = elem.ownerDocument;
-		docElem = doc.documentElement;
-		win = doc.defaultView;
-
+		win = elem.ownerDocument.defaultView;
 		return {
-			top: rect.top + win.pageYOffset - docElem.clientTop,
-			left: rect.left + win.pageXOffset - docElem.clientLeft
+			top: rect.top + win.pageYOffset,
+			left: rect.left + win.pageXOffset
 		};
 	},
 
+	// position() relates an element's margin box to its offset parent's padding box
+	// This corresponds to the behavior of CSS absolute positioning
 	position: function() {
 		if ( !this[ 0 ] ) {
 			return;
 		}
 
-		var offsetParent, offset,
+		var offsetParent, offset, doc,
 			elem = this[ 0 ],
 			parentOffset = { top: 0, left: 0 };
 
-		// Fixed elements are offset from window (parentOffset = {top:0, left: 0},
-		// because it is its only offset parent
+		// position:fixed elements are offset from the viewport, which itself always has zero offset
 		if ( jQuery.css( elem, "position" ) === "fixed" ) {
 
-			// Assume getBoundingClientRect is there when computed position is fixed
+			// Assume position:fixed implies availability of getBoundingClientRect
 			offset = elem.getBoundingClientRect();
 
 		} else {
-
-			// Get *real* offsetParent
-			offsetParent = this.offsetParent();
-
-			// Get correct offsets
 			offset = this.offset();
-			if ( !nodeName( offsetParent[ 0 ], "html" ) ) {
-				parentOffset = offsetParent.offset();
-			}
 
-			// Add offsetParent borders
-			parentOffset = {
-				top: parentOffset.top + jQuery.css( offsetParent[ 0 ], "borderTopWidth", true ),
-				left: parentOffset.left + jQuery.css( offsetParent[ 0 ], "borderLeftWidth", true )
-			};
+			// Account for the *real* offset parent, which can be the document or its root element
+			// when a statically positioned element is identified
+			doc = elem.ownerDocument;
+			offsetParent = elem.offsetParent || doc.documentElement;
+			while ( offsetParent &&
+				( offsetParent === doc.body || offsetParent === doc.documentElement ) &&
+				jQuery.css( offsetParent, "position" ) === "static" ) {
+
+				offsetParent = offsetParent.parentNode;
+			}
+			if ( offsetParent && offsetParent !== elem && offsetParent.nodeType === 1 ) {
+
+				// Incorporate borders into its offset, since they are outside its content origin
+				parentOffset = jQuery( offsetParent ).offset();
+				parentOffset.top += jQuery.css( offsetParent, "borderTopWidth", true );
+				parentOffset.left += jQuery.css( offsetParent, "borderLeftWidth", true );
+			}
 		}
 
 		// Subtract parent offsets and element margins
@@ -10349,7 +11270,7 @@ jQuery.each( { scrollLeft: "pageXOffset", scrollTop: "pageYOffset" }, function( 
 
 			// Coalesce documents and windows
 			var win;
-			if ( jQuery.isWindow( elem ) ) {
+			if ( isWindow( elem ) ) {
 				win = elem;
 			} else if ( elem.nodeType === 9 ) {
 				win = elem.defaultView;
@@ -10407,7 +11328,7 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 			return access( this, function( elem, type, value ) {
 				var doc;
 
-				if ( jQuery.isWindow( elem ) ) {
+				if ( isWindow( elem ) ) {
 
 					// $( window ).outerWidth/Height return w/h including scrollbars (gh-1729)
 					return funcName.indexOf( "outer" ) === 0 ?
@@ -10441,6 +11362,28 @@ jQuery.each( { Height: "height", Width: "width" }, function( name, type ) {
 } );
 
 
+jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
+	"mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave " +
+	"change select submit keydown keypress keyup contextmenu" ).split( " " ),
+	function( i, name ) {
+
+	// Handle event binding
+	jQuery.fn[ name ] = function( data, fn ) {
+		return arguments.length > 0 ?
+			this.on( name, null, data, fn ) :
+			this.trigger( name );
+	};
+} );
+
+jQuery.fn.extend( {
+	hover: function( fnOver, fnOut ) {
+		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
+	}
+} );
+
+
+
+
 jQuery.fn.extend( {
 
 	bind: function( types, data, fn ) {
@@ -10462,6 +11405,37 @@ jQuery.fn.extend( {
 	}
 } );
 
+// Bind a function to a context, optionally partially applying any
+// arguments.
+// jQuery.proxy is deprecated to promote standards (specifically Function#bind)
+// However, it is not slated for removal any time soon
+jQuery.proxy = function( fn, context ) {
+	var tmp, args, proxy;
+
+	if ( typeof context === "string" ) {
+		tmp = fn[ context ];
+		context = fn;
+		fn = tmp;
+	}
+
+	// Quick check to determine if target is callable, in the spec
+	// this throws a TypeError, but we will just return undefined.
+	if ( !isFunction( fn ) ) {
+		return undefined;
+	}
+
+	// Simulated bind
+	args = slice.call( arguments, 2 );
+	proxy = function() {
+		return fn.apply( context || this, args.concat( slice.call( arguments ) ) );
+	};
+
+	// Set the guid of unique handler to the same of original handler, so it can be removed
+	proxy.guid = fn.guid = fn.guid || jQuery.guid++;
+
+	return proxy;
+};
+
 jQuery.holdReady = function( hold ) {
 	if ( hold ) {
 		jQuery.readyWait++;
@@ -10472,6 +11446,26 @@ jQuery.holdReady = function( hold ) {
 jQuery.isArray = Array.isArray;
 jQuery.parseJSON = JSON.parse;
 jQuery.nodeName = nodeName;
+jQuery.isFunction = isFunction;
+jQuery.isWindow = isWindow;
+jQuery.camelCase = camelCase;
+jQuery.type = toType;
+
+jQuery.now = Date.now;
+
+jQuery.isNumeric = function( obj ) {
+
+	// As of jQuery 3.0, isNumeric is limited to
+	// strings and numbers (primitives or objects)
+	// that can be coerced to finite numbers (gh-2662)
+	var type = jQuery.type( obj );
+	return ( type === "number" || type === "string" ) &&
+
+		// parseFloat NaNs numeric-cast false positives ("")
+		// ...but misinterprets leading-number strings, particularly hex literals ("0x...")
+		// subtraction forces infinities to NaN
+		!isNaN( obj - parseFloat( obj ) );
+};
 
 
 
@@ -10531,7 +11525,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{}],5:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 /*! tooltipster v4.2.5 */!function(a,b){"function"==typeof define&&define.amd?define(["jquery"],function(a){return b(a)}):"object"==typeof exports?module.exports=b(require("jquery")):b(jQuery)}(this,function(a){function b(a){this.$container,this.constraints=null,this.__$tooltip,this.__init(a)}function c(b,c){var d=!0;return a.each(b,function(a,e){return void 0===c[a]||b[a]!==c[a]?(d=!1,!1):void 0}),d}function d(b){var c=b.attr("id"),d=c?h.window.document.getElementById(c):null;return d?d===b[0]:a.contains(h.window.document.body,b[0])}function e(){if(!g)return!1;var a=g.document.body||g.document.documentElement,b=a.style,c="transition",d=["Moz","Webkit","Khtml","O","ms"];if("string"==typeof b[c])return!0;c=c.charAt(0).toUpperCase()+c.substr(1);for(var e=0;e<d.length;e++)if("string"==typeof b[d[e]+c])return!0;return!1}var f={animation:"fade",animationDuration:350,content:null,contentAsHTML:!1,contentCloning:!1,debug:!0,delay:300,delayTouch:[300,500],functionInit:null,functionBefore:null,functionReady:null,functionAfter:null,functionFormat:null,IEmin:6,interactive:!1,multiple:!1,parent:null,plugins:["sideTip"],repositionOnScroll:!1,restoration:"none",selfDestruction:!0,theme:[],timer:0,trackerInterval:500,trackOrigin:!1,trackTooltip:!1,trigger:"hover",triggerClose:{click:!1,mouseleave:!1,originClick:!1,scroll:!1,tap:!1,touchleave:!1},triggerOpen:{click:!1,mouseenter:!1,tap:!1,touchstart:!1},updateAnimation:"rotate",zIndex:9999999},g="undefined"!=typeof window?window:null,h={hasTouchCapability:!(!g||!("ontouchstart"in g||g.DocumentTouch&&g.document instanceof g.DocumentTouch||g.navigator.maxTouchPoints)),hasTransitions:e(),IE:!1,semVer:"4.2.5",window:g},i=function(){this.__$emitterPrivate=a({}),this.__$emitterPublic=a({}),this.__instancesLatestArr=[],this.__plugins={},this._env=h};i.prototype={__bridge:function(b,c,d){if(!c[d]){var e=function(){};e.prototype=b;var g=new e;g.__init&&g.__init(c),a.each(b,function(a,b){0!=a.indexOf("__")&&(c[a]?f.debug&&console.log("The "+a+" method of the "+d+" plugin conflicts with another plugin or native methods"):(c[a]=function(){return g[a].apply(g,Array.prototype.slice.apply(arguments))},c[a].bridged=g))}),c[d]=g}return this},__setWindow:function(a){return h.window=a,this},_getRuler:function(a){return new b(a)},_off:function(){return this.__$emitterPrivate.off.apply(this.__$emitterPrivate,Array.prototype.slice.apply(arguments)),this},_on:function(){return this.__$emitterPrivate.on.apply(this.__$emitterPrivate,Array.prototype.slice.apply(arguments)),this},_one:function(){return this.__$emitterPrivate.one.apply(this.__$emitterPrivate,Array.prototype.slice.apply(arguments)),this},_plugin:function(b){var c=this;if("string"==typeof b){var d=b,e=null;return d.indexOf(".")>0?e=c.__plugins[d]:a.each(c.__plugins,function(a,b){return b.name.substring(b.name.length-d.length-1)=="."+d?(e=b,!1):void 0}),e}if(b.name.indexOf(".")<0)throw new Error("Plugins must be namespaced");return c.__plugins[b.name]=b,b.core&&c.__bridge(b.core,c,b.name),this},_trigger:function(){var a=Array.prototype.slice.apply(arguments);return"string"==typeof a[0]&&(a[0]={type:a[0]}),this.__$emitterPrivate.trigger.apply(this.__$emitterPrivate,a),this.__$emitterPublic.trigger.apply(this.__$emitterPublic,a),this},instances:function(b){var c=[],d=b||".tooltipstered";return a(d).each(function(){var b=a(this),d=b.data("tooltipster-ns");d&&a.each(d,function(a,d){c.push(b.data(d))})}),c},instancesLatest:function(){return this.__instancesLatestArr},off:function(){return this.__$emitterPublic.off.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this},on:function(){return this.__$emitterPublic.on.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this},one:function(){return this.__$emitterPublic.one.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this},origins:function(b){var c=b?b+" ":"";return a(c+".tooltipstered").toArray()},setDefaults:function(b){return a.extend(f,b),this},triggerHandler:function(){return this.__$emitterPublic.triggerHandler.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this}},a.tooltipster=new i,a.Tooltipster=function(b,c){this.__callbacks={close:[],open:[]},this.__closingTime,this.__Content,this.__contentBcr,this.__destroyed=!1,this.__$emitterPrivate=a({}),this.__$emitterPublic=a({}),this.__enabled=!0,this.__garbageCollector,this.__Geometry,this.__lastPosition,this.__namespace="tooltipster-"+Math.round(1e6*Math.random()),this.__options,this.__$originParents,this.__pointerIsOverOrigin=!1,this.__previousThemes=[],this.__state="closed",this.__timeouts={close:[],open:null},this.__touchEvents=[],this.__tracker=null,this._$origin,this._$tooltip,this.__init(b,c)},a.Tooltipster.prototype={__init:function(b,c){var d=this;if(d._$origin=a(b),d.__options=a.extend(!0,{},f,c),d.__optionsFormat(),!h.IE||h.IE>=d.__options.IEmin){var e=null;if(void 0===d._$origin.data("tooltipster-initialTitle")&&(e=d._$origin.attr("title"),void 0===e&&(e=null),d._$origin.data("tooltipster-initialTitle",e)),null!==d.__options.content)d.__contentSet(d.__options.content);else{var g,i=d._$origin.attr("data-tooltip-content");i&&(g=a(i)),g&&g[0]?d.__contentSet(g.first()):d.__contentSet(e)}d._$origin.removeAttr("title").addClass("tooltipstered"),d.__prepareOrigin(),d.__prepareGC(),a.each(d.__options.plugins,function(a,b){d._plug(b)}),h.hasTouchCapability&&a(h.window.document.body).on("touchmove."+d.__namespace+"-triggerOpen",function(a){d._touchRecordEvent(a)}),d._on("created",function(){d.__prepareTooltip()})._on("repositioned",function(a){d.__lastPosition=a.position})}else d.__options.disabled=!0},__contentInsert:function(){var a=this,b=a._$tooltip.find(".tooltipster-content"),c=a.__Content,d=function(a){c=a};return a._trigger({type:"format",content:a.__Content,format:d}),a.__options.functionFormat&&(c=a.__options.functionFormat.call(a,a,{origin:a._$origin[0]},a.__Content)),"string"!=typeof c||a.__options.contentAsHTML?b.empty().append(c):b.text(c),a},__contentSet:function(b){return b instanceof a&&this.__options.contentCloning&&(b=b.clone(!0)),this.__Content=b,this._trigger({type:"updated",content:b}),this},__destroyError:function(){throw new Error("This tooltip has been destroyed and cannot execute your method call.")},__geometry:function(){var b=this,c=b._$origin,d=b._$origin.is("area");if(d){var e=b._$origin.parent().attr("name");c=a('img[usemap="#'+e+'"]')}var f=c[0].getBoundingClientRect(),g=a(h.window.document),i=a(h.window),j=c,k={available:{document:null,window:null},document:{size:{height:g.height(),width:g.width()}},window:{scroll:{left:h.window.scrollX||h.window.document.documentElement.scrollLeft,top:h.window.scrollY||h.window.document.documentElement.scrollTop},size:{height:i.height(),width:i.width()}},origin:{fixedLineage:!1,offset:{},size:{height:f.bottom-f.top,width:f.right-f.left},usemapImage:d?c[0]:null,windowOffset:{bottom:f.bottom,left:f.left,right:f.right,top:f.top}}};if(d){var l=b._$origin.attr("shape"),m=b._$origin.attr("coords");if(m&&(m=m.split(","),a.map(m,function(a,b){m[b]=parseInt(a)})),"default"!=l)switch(l){case"circle":var n=m[0],o=m[1],p=m[2],q=o-p,r=n-p;k.origin.size.height=2*p,k.origin.size.width=k.origin.size.height,k.origin.windowOffset.left+=r,k.origin.windowOffset.top+=q;break;case"rect":var s=m[0],t=m[1],u=m[2],v=m[3];k.origin.size.height=v-t,k.origin.size.width=u-s,k.origin.windowOffset.left+=s,k.origin.windowOffset.top+=t;break;case"poly":for(var w=0,x=0,y=0,z=0,A="even",B=0;B<m.length;B++){var C=m[B];"even"==A?(C>y&&(y=C,0===B&&(w=y)),w>C&&(w=C),A="odd"):(C>z&&(z=C,1==B&&(x=z)),x>C&&(x=C),A="even")}k.origin.size.height=z-x,k.origin.size.width=y-w,k.origin.windowOffset.left+=w,k.origin.windowOffset.top+=x}}var D=function(a){k.origin.size.height=a.height,k.origin.windowOffset.left=a.left,k.origin.windowOffset.top=a.top,k.origin.size.width=a.width};for(b._trigger({type:"geometry",edit:D,geometry:{height:k.origin.size.height,left:k.origin.windowOffset.left,top:k.origin.windowOffset.top,width:k.origin.size.width}}),k.origin.windowOffset.right=k.origin.windowOffset.left+k.origin.size.width,k.origin.windowOffset.bottom=k.origin.windowOffset.top+k.origin.size.height,k.origin.offset.left=k.origin.windowOffset.left+k.window.scroll.left,k.origin.offset.top=k.origin.windowOffset.top+k.window.scroll.top,k.origin.offset.bottom=k.origin.offset.top+k.origin.size.height,k.origin.offset.right=k.origin.offset.left+k.origin.size.width,k.available.document={bottom:{height:k.document.size.height-k.origin.offset.bottom,width:k.document.size.width},left:{height:k.document.size.height,width:k.origin.offset.left},right:{height:k.document.size.height,width:k.document.size.width-k.origin.offset.right},top:{height:k.origin.offset.top,width:k.document.size.width}},k.available.window={bottom:{height:Math.max(k.window.size.height-Math.max(k.origin.windowOffset.bottom,0),0),width:k.window.size.width},left:{height:k.window.size.height,width:Math.max(k.origin.windowOffset.left,0)},right:{height:k.window.size.height,width:Math.max(k.window.size.width-Math.max(k.origin.windowOffset.right,0),0)},top:{height:Math.max(k.origin.windowOffset.top,0),width:k.window.size.width}};"html"!=j[0].tagName.toLowerCase();){if("fixed"==j.css("position")){k.origin.fixedLineage=!0;break}j=j.parent()}return k},__optionsFormat:function(){return"number"==typeof this.__options.animationDuration&&(this.__options.animationDuration=[this.__options.animationDuration,this.__options.animationDuration]),"number"==typeof this.__options.delay&&(this.__options.delay=[this.__options.delay,this.__options.delay]),"number"==typeof this.__options.delayTouch&&(this.__options.delayTouch=[this.__options.delayTouch,this.__options.delayTouch]),"string"==typeof this.__options.theme&&(this.__options.theme=[this.__options.theme]),null===this.__options.parent?this.__options.parent=a(h.window.document.body):"string"==typeof this.__options.parent&&(this.__options.parent=a(this.__options.parent)),"hover"==this.__options.trigger?(this.__options.triggerOpen={mouseenter:!0,touchstart:!0},this.__options.triggerClose={mouseleave:!0,originClick:!0,touchleave:!0}):"click"==this.__options.trigger&&(this.__options.triggerOpen={click:!0,tap:!0},this.__options.triggerClose={click:!0,tap:!0}),this._trigger("options"),this},__prepareGC:function(){var b=this;return b.__options.selfDestruction?b.__garbageCollector=setInterval(function(){var c=(new Date).getTime();b.__touchEvents=a.grep(b.__touchEvents,function(a,b){return c-a.time>6e4}),d(b._$origin)||b.close(function(){b.destroy()})},2e4):clearInterval(b.__garbageCollector),b},__prepareOrigin:function(){var a=this;if(a._$origin.off("."+a.__namespace+"-triggerOpen"),h.hasTouchCapability&&a._$origin.on("touchstart."+a.__namespace+"-triggerOpen touchend."+a.__namespace+"-triggerOpen touchcancel."+a.__namespace+"-triggerOpen",function(b){a._touchRecordEvent(b)}),a.__options.triggerOpen.click||a.__options.triggerOpen.tap&&h.hasTouchCapability){var b="";a.__options.triggerOpen.click&&(b+="click."+a.__namespace+"-triggerOpen "),a.__options.triggerOpen.tap&&h.hasTouchCapability&&(b+="touchend."+a.__namespace+"-triggerOpen"),a._$origin.on(b,function(b){a._touchIsMeaningfulEvent(b)&&a._open(b)})}if(a.__options.triggerOpen.mouseenter||a.__options.triggerOpen.touchstart&&h.hasTouchCapability){var b="";a.__options.triggerOpen.mouseenter&&(b+="mouseenter."+a.__namespace+"-triggerOpen "),a.__options.triggerOpen.touchstart&&h.hasTouchCapability&&(b+="touchstart."+a.__namespace+"-triggerOpen"),a._$origin.on(b,function(b){!a._touchIsTouchEvent(b)&&a._touchIsEmulatedEvent(b)||(a.__pointerIsOverOrigin=!0,a._openShortly(b))})}if(a.__options.triggerClose.mouseleave||a.__options.triggerClose.touchleave&&h.hasTouchCapability){var b="";a.__options.triggerClose.mouseleave&&(b+="mouseleave."+a.__namespace+"-triggerOpen "),a.__options.triggerClose.touchleave&&h.hasTouchCapability&&(b+="touchend."+a.__namespace+"-triggerOpen touchcancel."+a.__namespace+"-triggerOpen"),a._$origin.on(b,function(b){a._touchIsMeaningfulEvent(b)&&(a.__pointerIsOverOrigin=!1)})}return a},__prepareTooltip:function(){var b=this,c=b.__options.interactive?"auto":"";return b._$tooltip.attr("id",b.__namespace).css({"pointer-events":c,zIndex:b.__options.zIndex}),a.each(b.__previousThemes,function(a,c){b._$tooltip.removeClass(c)}),a.each(b.__options.theme,function(a,c){b._$tooltip.addClass(c)}),b.__previousThemes=a.merge([],b.__options.theme),b},__scrollHandler:function(b){var c=this;if(c.__options.triggerClose.scroll)c._close(b);else if(d(c._$origin)&&d(c._$tooltip)){var e=null;if(b.target===h.window.document)c.__Geometry.origin.fixedLineage||c.__options.repositionOnScroll&&c.reposition(b);else{e=c.__geometry();var f=!1;if("fixed"!=c._$origin.css("position")&&c.__$originParents.each(function(b,c){var d=a(c),g=d.css("overflow-x"),h=d.css("overflow-y");if("visible"!=g||"visible"!=h){var i=c.getBoundingClientRect();if("visible"!=g&&(e.origin.windowOffset.left<i.left||e.origin.windowOffset.right>i.right))return f=!0,!1;if("visible"!=h&&(e.origin.windowOffset.top<i.top||e.origin.windowOffset.bottom>i.bottom))return f=!0,!1}return"fixed"==d.css("position")?!1:void 0}),f)c._$tooltip.css("visibility","hidden");else if(c._$tooltip.css("visibility","visible"),c.__options.repositionOnScroll)c.reposition(b);else{var g=e.origin.offset.left-c.__Geometry.origin.offset.left,i=e.origin.offset.top-c.__Geometry.origin.offset.top;c._$tooltip.css({left:c.__lastPosition.coord.left+g,top:c.__lastPosition.coord.top+i})}}c._trigger({type:"scroll",event:b,geo:e})}return c},__stateSet:function(a){return this.__state=a,this._trigger({type:"state",state:a}),this},__timeoutsClear:function(){return clearTimeout(this.__timeouts.open),this.__timeouts.open=null,a.each(this.__timeouts.close,function(a,b){clearTimeout(b)}),this.__timeouts.close=[],this},__trackerStart:function(){var a=this,b=a._$tooltip.find(".tooltipster-content");return a.__options.trackTooltip&&(a.__contentBcr=b[0].getBoundingClientRect()),a.__tracker=setInterval(function(){if(d(a._$origin)&&d(a._$tooltip)){if(a.__options.trackOrigin){var e=a.__geometry(),f=!1;c(e.origin.size,a.__Geometry.origin.size)&&(a.__Geometry.origin.fixedLineage?c(e.origin.windowOffset,a.__Geometry.origin.windowOffset)&&(f=!0):c(e.origin.offset,a.__Geometry.origin.offset)&&(f=!0)),f||(a.__options.triggerClose.mouseleave?a._close():a.reposition())}if(a.__options.trackTooltip){var g=b[0].getBoundingClientRect();g.height===a.__contentBcr.height&&g.width===a.__contentBcr.width||(a.reposition(),a.__contentBcr=g)}}else a._close()},a.__options.trackerInterval),a},_close:function(b,c,d){var e=this,f=!0;if(e._trigger({type:"close",event:b,stop:function(){f=!1}}),f||d){c&&e.__callbacks.close.push(c),e.__callbacks.open=[],e.__timeoutsClear();var g=function(){a.each(e.__callbacks.close,function(a,c){c.call(e,e,{event:b,origin:e._$origin[0]})}),e.__callbacks.close=[]};if("closed"!=e.__state){var i=!0,j=new Date,k=j.getTime(),l=k+e.__options.animationDuration[1];if("disappearing"==e.__state&&l>e.__closingTime&&e.__options.animationDuration[1]>0&&(i=!1),i){e.__closingTime=l,"disappearing"!=e.__state&&e.__stateSet("disappearing");var m=function(){clearInterval(e.__tracker),e._trigger({type:"closing",event:b}),e._$tooltip.off("."+e.__namespace+"-triggerClose").removeClass("tooltipster-dying"),a(h.window).off("."+e.__namespace+"-triggerClose"),e.__$originParents.each(function(b,c){a(c).off("scroll."+e.__namespace+"-triggerClose")}),e.__$originParents=null,a(h.window.document.body).off("."+e.__namespace+"-triggerClose"),e._$origin.off("."+e.__namespace+"-triggerClose"),e._off("dismissable"),e.__stateSet("closed"),e._trigger({type:"after",event:b}),e.__options.functionAfter&&e.__options.functionAfter.call(e,e,{event:b,origin:e._$origin[0]}),g()};h.hasTransitions?(e._$tooltip.css({"-moz-animation-duration":e.__options.animationDuration[1]+"ms","-ms-animation-duration":e.__options.animationDuration[1]+"ms","-o-animation-duration":e.__options.animationDuration[1]+"ms","-webkit-animation-duration":e.__options.animationDuration[1]+"ms","animation-duration":e.__options.animationDuration[1]+"ms","transition-duration":e.__options.animationDuration[1]+"ms"}),e._$tooltip.clearQueue().removeClass("tooltipster-show").addClass("tooltipster-dying"),e.__options.animationDuration[1]>0&&e._$tooltip.delay(e.__options.animationDuration[1]),e._$tooltip.queue(m)):e._$tooltip.stop().fadeOut(e.__options.animationDuration[1],m)}}else g()}return e},_off:function(){return this.__$emitterPrivate.off.apply(this.__$emitterPrivate,Array.prototype.slice.apply(arguments)),this},_on:function(){return this.__$emitterPrivate.on.apply(this.__$emitterPrivate,Array.prototype.slice.apply(arguments)),this},_one:function(){return this.__$emitterPrivate.one.apply(this.__$emitterPrivate,Array.prototype.slice.apply(arguments)),this},_open:function(b,c){var e=this;if(!e.__destroying&&d(e._$origin)&&e.__enabled){var f=!0;if("closed"==e.__state&&(e._trigger({type:"before",event:b,stop:function(){f=!1}}),f&&e.__options.functionBefore&&(f=e.__options.functionBefore.call(e,e,{event:b,origin:e._$origin[0]}))),f!==!1&&null!==e.__Content){c&&e.__callbacks.open.push(c),e.__callbacks.close=[],e.__timeoutsClear();var g,i=function(){"stable"!=e.__state&&e.__stateSet("stable"),a.each(e.__callbacks.open,function(a,b){b.call(e,e,{origin:e._$origin[0],tooltip:e._$tooltip[0]})}),e.__callbacks.open=[]};if("closed"!==e.__state)g=0,"disappearing"===e.__state?(e.__stateSet("appearing"),h.hasTransitions?(e._$tooltip.clearQueue().removeClass("tooltipster-dying").addClass("tooltipster-show"),e.__options.animationDuration[0]>0&&e._$tooltip.delay(e.__options.animationDuration[0]),e._$tooltip.queue(i)):e._$tooltip.stop().fadeIn(i)):"stable"==e.__state&&i();else{if(e.__stateSet("appearing"),g=e.__options.animationDuration[0],e.__contentInsert(),e.reposition(b,!0),h.hasTransitions?(e._$tooltip.addClass("tooltipster-"+e.__options.animation).addClass("tooltipster-initial").css({"-moz-animation-duration":e.__options.animationDuration[0]+"ms","-ms-animation-duration":e.__options.animationDuration[0]+"ms","-o-animation-duration":e.__options.animationDuration[0]+"ms","-webkit-animation-duration":e.__options.animationDuration[0]+"ms","animation-duration":e.__options.animationDuration[0]+"ms","transition-duration":e.__options.animationDuration[0]+"ms"}),setTimeout(function(){"closed"!=e.__state&&(e._$tooltip.addClass("tooltipster-show").removeClass("tooltipster-initial"),e.__options.animationDuration[0]>0&&e._$tooltip.delay(e.__options.animationDuration[0]),e._$tooltip.queue(i))},0)):e._$tooltip.css("display","none").fadeIn(e.__options.animationDuration[0],i),e.__trackerStart(),a(h.window).on("resize."+e.__namespace+"-triggerClose",function(b){var c=a(document.activeElement);(c.is("input")||c.is("textarea"))&&a.contains(e._$tooltip[0],c[0])||e.reposition(b)}).on("scroll."+e.__namespace+"-triggerClose",function(a){e.__scrollHandler(a)}),e.__$originParents=e._$origin.parents(),e.__$originParents.each(function(b,c){a(c).on("scroll."+e.__namespace+"-triggerClose",function(a){e.__scrollHandler(a)})}),e.__options.triggerClose.mouseleave||e.__options.triggerClose.touchleave&&h.hasTouchCapability){e._on("dismissable",function(a){a.dismissable?a.delay?(m=setTimeout(function(){e._close(a.event)},a.delay),e.__timeouts.close.push(m)):e._close(a):clearTimeout(m)});var j=e._$origin,k="",l="",m=null;e.__options.interactive&&(j=j.add(e._$tooltip)),e.__options.triggerClose.mouseleave&&(k+="mouseenter."+e.__namespace+"-triggerClose ",l+="mouseleave."+e.__namespace+"-triggerClose "),e.__options.triggerClose.touchleave&&h.hasTouchCapability&&(k+="touchstart."+e.__namespace+"-triggerClose",l+="touchend."+e.__namespace+"-triggerClose touchcancel."+e.__namespace+"-triggerClose"),j.on(l,function(a){if(e._touchIsTouchEvent(a)||!e._touchIsEmulatedEvent(a)){var b="mouseleave"==a.type?e.__options.delay:e.__options.delayTouch;e._trigger({delay:b[1],dismissable:!0,event:a,type:"dismissable"})}}).on(k,function(a){!e._touchIsTouchEvent(a)&&e._touchIsEmulatedEvent(a)||e._trigger({dismissable:!1,event:a,type:"dismissable"})})}e.__options.triggerClose.originClick&&e._$origin.on("click."+e.__namespace+"-triggerClose",function(a){e._touchIsTouchEvent(a)||e._touchIsEmulatedEvent(a)||e._close(a)}),(e.__options.triggerClose.click||e.__options.triggerClose.tap&&h.hasTouchCapability)&&setTimeout(function(){if("closed"!=e.__state){var b="",c=a(h.window.document.body);e.__options.triggerClose.click&&(b+="click."+e.__namespace+"-triggerClose "),e.__options.triggerClose.tap&&h.hasTouchCapability&&(b+="touchend."+e.__namespace+"-triggerClose"),c.on(b,function(b){e._touchIsMeaningfulEvent(b)&&(e._touchRecordEvent(b),e.__options.interactive&&a.contains(e._$tooltip[0],b.target)||e._close(b))}),e.__options.triggerClose.tap&&h.hasTouchCapability&&c.on("touchstart."+e.__namespace+"-triggerClose",function(a){e._touchRecordEvent(a)})}},0),e._trigger("ready"),e.__options.functionReady&&e.__options.functionReady.call(e,e,{origin:e._$origin[0],tooltip:e._$tooltip[0]})}if(e.__options.timer>0){var m=setTimeout(function(){e._close()},e.__options.timer+g);e.__timeouts.close.push(m)}}}return e},_openShortly:function(a){var b=this,c=!0;if("stable"!=b.__state&&"appearing"!=b.__state&&!b.__timeouts.open&&(b._trigger({type:"start",event:a,stop:function(){c=!1}}),c)){var d=0==a.type.indexOf("touch")?b.__options.delayTouch:b.__options.delay;d[0]?b.__timeouts.open=setTimeout(function(){b.__timeouts.open=null,b.__pointerIsOverOrigin&&b._touchIsMeaningfulEvent(a)?(b._trigger("startend"),b._open(a)):b._trigger("startcancel")},d[0]):(b._trigger("startend"),b._open(a))}return b},_optionsExtract:function(b,c){var d=this,e=a.extend(!0,{},c),f=d.__options[b];return f||(f={},a.each(c,function(a,b){var c=d.__options[a];void 0!==c&&(f[a]=c)})),a.each(e,function(b,c){void 0!==f[b]&&("object"!=typeof c||c instanceof Array||null==c||"object"!=typeof f[b]||f[b]instanceof Array||null==f[b]?e[b]=f[b]:a.extend(e[b],f[b]))}),e},_plug:function(b){var c=a.tooltipster._plugin(b);if(!c)throw new Error('The "'+b+'" plugin is not defined');return c.instance&&a.tooltipster.__bridge(c.instance,this,c.name),this},_touchIsEmulatedEvent:function(a){for(var b=!1,c=(new Date).getTime(),d=this.__touchEvents.length-1;d>=0;d--){var e=this.__touchEvents[d];if(!(c-e.time<500))break;e.target===a.target&&(b=!0)}return b},_touchIsMeaningfulEvent:function(a){return this._touchIsTouchEvent(a)&&!this._touchSwiped(a.target)||!this._touchIsTouchEvent(a)&&!this._touchIsEmulatedEvent(a)},_touchIsTouchEvent:function(a){return 0==a.type.indexOf("touch")},_touchRecordEvent:function(a){return this._touchIsTouchEvent(a)&&(a.time=(new Date).getTime(),this.__touchEvents.push(a)),this},_touchSwiped:function(a){for(var b=!1,c=this.__touchEvents.length-1;c>=0;c--){var d=this.__touchEvents[c];if("touchmove"==d.type){b=!0;break}if("touchstart"==d.type&&a===d.target)break}return b},_trigger:function(){var b=Array.prototype.slice.apply(arguments);return"string"==typeof b[0]&&(b[0]={type:b[0]}),b[0].instance=this,b[0].origin=this._$origin?this._$origin[0]:null,b[0].tooltip=this._$tooltip?this._$tooltip[0]:null,this.__$emitterPrivate.trigger.apply(this.__$emitterPrivate,b),a.tooltipster._trigger.apply(a.tooltipster,b),this.__$emitterPublic.trigger.apply(this.__$emitterPublic,b),this},_unplug:function(b){var c=this;if(c[b]){var d=a.tooltipster._plugin(b);d.instance&&a.each(d.instance,function(a,d){c[a]&&c[a].bridged===c[b]&&delete c[a]}),c[b].__destroy&&c[b].__destroy(),delete c[b]}return c},close:function(a){return this.__destroyed?this.__destroyError():this._close(null,a),this},content:function(a){var b=this;if(void 0===a)return b.__Content;if(b.__destroyed)b.__destroyError();else if(b.__contentSet(a),null!==b.__Content){if("closed"!==b.__state&&(b.__contentInsert(),b.reposition(),b.__options.updateAnimation))if(h.hasTransitions){var c=b.__options.updateAnimation;b._$tooltip.addClass("tooltipster-update-"+c),setTimeout(function(){"closed"!=b.__state&&b._$tooltip.removeClass("tooltipster-update-"+c)},1e3)}else b._$tooltip.fadeTo(200,.5,function(){"closed"!=b.__state&&b._$tooltip.fadeTo(200,1)})}else b._close();return b},destroy:function(){var b=this;if(b.__destroyed)b.__destroyError();else{"closed"!=b.__state?b.option("animationDuration",0)._close(null,null,!0):b.__timeoutsClear(),b._trigger("destroy"),b.__destroyed=!0,b._$origin.removeData(b.__namespace).off("."+b.__namespace+"-triggerOpen"),a(h.window.document.body).off("."+b.__namespace+"-triggerOpen");var c=b._$origin.data("tooltipster-ns");if(c)if(1===c.length){var d=null;"previous"==b.__options.restoration?d=b._$origin.data("tooltipster-initialTitle"):"current"==b.__options.restoration&&(d="string"==typeof b.__Content?b.__Content:a("<div></div>").append(b.__Content).html()),d&&b._$origin.attr("title",d),b._$origin.removeClass("tooltipstered"),b._$origin.removeData("tooltipster-ns").removeData("tooltipster-initialTitle")}else c=a.grep(c,function(a,c){return a!==b.__namespace}),b._$origin.data("tooltipster-ns",c);b._trigger("destroyed"),b._off(),b.off(),b.__Content=null,b.__$emitterPrivate=null,b.__$emitterPublic=null,b.__options.parent=null,b._$origin=null,b._$tooltip=null,a.tooltipster.__instancesLatestArr=a.grep(a.tooltipster.__instancesLatestArr,function(a,c){return b!==a}),clearInterval(b.__garbageCollector)}return b},disable:function(){return this.__destroyed?(this.__destroyError(),this):(this._close(),this.__enabled=!1,this)},elementOrigin:function(){return this.__destroyed?void this.__destroyError():this._$origin[0]},elementTooltip:function(){return this._$tooltip?this._$tooltip[0]:null},enable:function(){return this.__enabled=!0,this},hide:function(a){return this.close(a)},instance:function(){return this},off:function(){return this.__destroyed||this.__$emitterPublic.off.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this},on:function(){return this.__destroyed?this.__destroyError():this.__$emitterPublic.on.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this},one:function(){return this.__destroyed?this.__destroyError():this.__$emitterPublic.one.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this},open:function(a){return this.__destroyed?this.__destroyError():this._open(null,a),this},option:function(b,c){return void 0===c?this.__options[b]:(this.__destroyed?this.__destroyError():(this.__options[b]=c,this.__optionsFormat(),a.inArray(b,["trigger","triggerClose","triggerOpen"])>=0&&this.__prepareOrigin(),"selfDestruction"===b&&this.__prepareGC()),this)},reposition:function(a,b){var c=this;return c.__destroyed?c.__destroyError():"closed"!=c.__state&&d(c._$origin)&&(b||d(c._$tooltip))&&(b||c._$tooltip.detach(),c.__Geometry=c.__geometry(),c._trigger({type:"reposition",event:a,helper:{geo:c.__Geometry}})),c},show:function(a){return this.open(a)},status:function(){return{destroyed:this.__destroyed,enabled:this.__enabled,open:"closed"!==this.__state,state:this.__state}},triggerHandler:function(){return this.__destroyed?this.__destroyError():this.__$emitterPublic.triggerHandler.apply(this.__$emitterPublic,Array.prototype.slice.apply(arguments)),this}},a.fn.tooltipster=function(){var b=Array.prototype.slice.apply(arguments),c="You are using a single HTML element as content for several tooltips. You probably want to set the contentCloning option to TRUE.";if(0===this.length)return this;if("string"==typeof b[0]){var d="#*$~&";return this.each(function(){var e=a(this).data("tooltipster-ns"),f=e?a(this).data(e[0]):null;if(!f)throw new Error("You called Tooltipster's \""+b[0]+'" method on an uninitialized element');if("function"!=typeof f[b[0]])throw new Error('Unknown method "'+b[0]+'"');this.length>1&&"content"==b[0]&&(b[1]instanceof a||"object"==typeof b[1]&&null!=b[1]&&b[1].tagName)&&!f.__options.contentCloning&&f.__options.debug&&console.log(c);var g=f[b[0]](b[1],b[2]);return g!==f||"instance"===b[0]?(d=g,!1):void 0}),"#*$~&"!==d?d:this}a.tooltipster.__instancesLatestArr=[];var e=b[0]&&void 0!==b[0].multiple,g=e&&b[0].multiple||!e&&f.multiple,h=b[0]&&void 0!==b[0].content,i=h&&b[0].content||!h&&f.content,j=b[0]&&void 0!==b[0].contentCloning,k=j&&b[0].contentCloning||!j&&f.contentCloning,l=b[0]&&void 0!==b[0].debug,m=l&&b[0].debug||!l&&f.debug;return this.length>1&&(i instanceof a||"object"==typeof i&&null!=i&&i.tagName)&&!k&&m&&console.log(c),this.each(function(){var c=!1,d=a(this),e=d.data("tooltipster-ns"),f=null;e?g?c=!0:m&&(console.log("Tooltipster: one or more tooltips are already attached to the element below. Ignoring."),console.log(this)):c=!0,c&&(f=new a.Tooltipster(this,b[0]),e||(e=[]),e.push(f.__namespace),d.data("tooltipster-ns",e),d.data(f.__namespace,f),f.__options.functionInit&&f.__options.functionInit.call(f,f,{origin:this}),f._trigger("init")),a.tooltipster.__instancesLatestArr.push(f)}),this},b.prototype={__init:function(b){this.__$tooltip=b,this.__$tooltip.css({left:0,overflow:"hidden",position:"absolute",top:0}).find(".tooltipster-content").css("overflow","auto"),this.$container=a('<div class="tooltipster-ruler"></div>').append(this.__$tooltip).appendTo(h.window.document.body)},__forceRedraw:function(){var a=this.__$tooltip.parent();this.__$tooltip.detach(),this.__$tooltip.appendTo(a)},constrain:function(a,b){return this.constraints={width:a,height:b},this.__$tooltip.css({display:"block",height:"",overflow:"auto",width:a}),this},destroy:function(){this.__$tooltip.detach().find(".tooltipster-content").css({display:"",overflow:""}),this.$container.remove()},free:function(){return this.constraints=null,this.__$tooltip.css({display:"",height:"",overflow:"visible",width:""}),this},measure:function(){this.__forceRedraw();var a=this.__$tooltip[0].getBoundingClientRect(),b={size:{height:a.height||a.bottom-a.top,width:a.width||a.right-a.left}};if(this.constraints){var c=this.__$tooltip.find(".tooltipster-content"),d=this.__$tooltip.outerHeight(),e=c[0].getBoundingClientRect(),f={height:d<=this.constraints.height,width:a.width<=this.constraints.width&&e.width>=c[0].scrollWidth-1};b.fits=f.height&&f.width}return h.IE&&h.IE<=11&&b.size.width!==h.window.document.documentElement.clientWidth&&(b.size.width=Math.ceil(b.size.width)+1),b}};var j=navigator.userAgent.toLowerCase();-1!=j.indexOf("msie")?h.IE=parseInt(j.split("msie")[1]):-1!==j.toLowerCase().indexOf("trident")&&-1!==j.indexOf(" rv:11")?h.IE=11:-1!=j.toLowerCase().indexOf("edge/")&&(h.IE=parseInt(j.toLowerCase().split("edge/")[1]));var k="tooltipster.sideTip";return a.tooltipster._plugin({name:k,instance:{__defaults:function(){return{arrow:!0,distance:6,functionPosition:null,maxWidth:null,minIntersection:16,minWidth:0,position:null,side:"top",viewportAware:!0}},__init:function(a){var b=this;b.__instance=a,b.__namespace="tooltipster-sideTip-"+Math.round(1e6*Math.random()),b.__previousState="closed",b.__options,b.__optionsFormat(),b.__instance._on("state."+b.__namespace,function(a){"closed"==a.state?b.__close():"appearing"==a.state&&"closed"==b.__previousState&&b.__create(),b.__previousState=a.state}),b.__instance._on("options."+b.__namespace,function(){b.__optionsFormat()}),b.__instance._on("reposition."+b.__namespace,function(a){b.__reposition(a.event,a.helper)})},__close:function(){this.__instance.content()instanceof a&&this.__instance.content().detach(),this.__instance._$tooltip.remove(),this.__instance._$tooltip=null},__create:function(){var b=a('<div class="tooltipster-base tooltipster-sidetip"><div class="tooltipster-box"><div class="tooltipster-content"></div></div><div class="tooltipster-arrow"><div class="tooltipster-arrow-uncropped"><div class="tooltipster-arrow-border"></div><div class="tooltipster-arrow-background"></div></div></div></div>');this.__options.arrow||b.find(".tooltipster-box").css("margin",0).end().find(".tooltipster-arrow").hide(),this.__options.minWidth&&b.css("min-width",this.__options.minWidth+"px"),this.__options.maxWidth&&b.css("max-width",this.__options.maxWidth+"px"),
 this.__instance._$tooltip=b,this.__instance._trigger("created")},__destroy:function(){this.__instance._off("."+self.__namespace)},__optionsFormat:function(){var b=this;if(b.__options=b.__instance._optionsExtract(k,b.__defaults()),b.__options.position&&(b.__options.side=b.__options.position),"object"!=typeof b.__options.distance&&(b.__options.distance=[b.__options.distance]),b.__options.distance.length<4&&(void 0===b.__options.distance[1]&&(b.__options.distance[1]=b.__options.distance[0]),void 0===b.__options.distance[2]&&(b.__options.distance[2]=b.__options.distance[0]),void 0===b.__options.distance[3]&&(b.__options.distance[3]=b.__options.distance[1]),b.__options.distance={top:b.__options.distance[0],right:b.__options.distance[1],bottom:b.__options.distance[2],left:b.__options.distance[3]}),"string"==typeof b.__options.side){var c={top:"bottom",right:"left",bottom:"top",left:"right"};b.__options.side=[b.__options.side,c[b.__options.side]],"left"==b.__options.side[0]||"right"==b.__options.side[0]?b.__options.side.push("top","bottom"):b.__options.side.push("right","left")}6===a.tooltipster._env.IE&&b.__options.arrow!==!0&&(b.__options.arrow=!1)},__reposition:function(b,c){var d,e=this,f=e.__targetFind(c),g=[];e.__instance._$tooltip.detach();var h=e.__instance._$tooltip.clone(),i=a.tooltipster._getRuler(h),j=!1,k=e.__instance.option("animation");switch(k&&h.removeClass("tooltipster-"+k),a.each(["window","document"],function(d,k){var l=null;if(e.__instance._trigger({container:k,helper:c,satisfied:j,takeTest:function(a){l=a},results:g,type:"positionTest"}),1==l||0!=l&&0==j&&("window"!=k||e.__options.viewportAware))for(var d=0;d<e.__options.side.length;d++){var m={horizontal:0,vertical:0},n=e.__options.side[d];"top"==n||"bottom"==n?m.vertical=e.__options.distance[n]:m.horizontal=e.__options.distance[n],e.__sideChange(h,n),a.each(["natural","constrained"],function(a,d){if(l=null,e.__instance._trigger({container:k,event:b,helper:c,mode:d,results:g,satisfied:j,side:n,takeTest:function(a){l=a},type:"positionTest"}),1==l||0!=l&&0==j){var h={container:k,distance:m,fits:null,mode:d,outerSize:null,side:n,size:null,target:f[n],whole:null},o="natural"==d?i.free():i.constrain(c.geo.available[k][n].width-m.horizontal,c.geo.available[k][n].height-m.vertical),p=o.measure();if(h.size=p.size,h.outerSize={height:p.size.height+m.vertical,width:p.size.width+m.horizontal},"natural"==d?c.geo.available[k][n].width>=h.outerSize.width&&c.geo.available[k][n].height>=h.outerSize.height?h.fits=!0:h.fits=!1:h.fits=p.fits,"window"==k&&(h.fits?"top"==n||"bottom"==n?h.whole=c.geo.origin.windowOffset.right>=e.__options.minIntersection&&c.geo.window.size.width-c.geo.origin.windowOffset.left>=e.__options.minIntersection:h.whole=c.geo.origin.windowOffset.bottom>=e.__options.minIntersection&&c.geo.window.size.height-c.geo.origin.windowOffset.top>=e.__options.minIntersection:h.whole=!1),g.push(h),h.whole)j=!0;else if("natural"==h.mode&&(h.fits||h.size.width<=c.geo.available[k][n].width))return!1}})}}),e.__instance._trigger({edit:function(a){g=a},event:b,helper:c,results:g,type:"positionTested"}),g.sort(function(a,b){if(a.whole&&!b.whole)return-1;if(!a.whole&&b.whole)return 1;if(a.whole&&b.whole){var c=e.__options.side.indexOf(a.side),d=e.__options.side.indexOf(b.side);return d>c?-1:c>d?1:"natural"==a.mode?-1:1}if(a.fits&&!b.fits)return-1;if(!a.fits&&b.fits)return 1;if(a.fits&&b.fits){var c=e.__options.side.indexOf(a.side),d=e.__options.side.indexOf(b.side);return d>c?-1:c>d?1:"natural"==a.mode?-1:1}return"document"==a.container&&"bottom"==a.side&&"natural"==a.mode?-1:1}),d=g[0],d.coord={},d.side){case"left":case"right":d.coord.top=Math.floor(d.target-d.size.height/2);break;case"bottom":case"top":d.coord.left=Math.floor(d.target-d.size.width/2)}switch(d.side){case"left":d.coord.left=c.geo.origin.windowOffset.left-d.outerSize.width;break;case"right":d.coord.left=c.geo.origin.windowOffset.right+d.distance.horizontal;break;case"top":d.coord.top=c.geo.origin.windowOffset.top-d.outerSize.height;break;case"bottom":d.coord.top=c.geo.origin.windowOffset.bottom+d.distance.vertical}"window"==d.container?"top"==d.side||"bottom"==d.side?d.coord.left<0?c.geo.origin.windowOffset.right-this.__options.minIntersection>=0?d.coord.left=0:d.coord.left=c.geo.origin.windowOffset.right-this.__options.minIntersection-1:d.coord.left>c.geo.window.size.width-d.size.width&&(c.geo.origin.windowOffset.left+this.__options.minIntersection<=c.geo.window.size.width?d.coord.left=c.geo.window.size.width-d.size.width:d.coord.left=c.geo.origin.windowOffset.left+this.__options.minIntersection+1-d.size.width):d.coord.top<0?c.geo.origin.windowOffset.bottom-this.__options.minIntersection>=0?d.coord.top=0:d.coord.top=c.geo.origin.windowOffset.bottom-this.__options.minIntersection-1:d.coord.top>c.geo.window.size.height-d.size.height&&(c.geo.origin.windowOffset.top+this.__options.minIntersection<=c.geo.window.size.height?d.coord.top=c.geo.window.size.height-d.size.height:d.coord.top=c.geo.origin.windowOffset.top+this.__options.minIntersection+1-d.size.height):(d.coord.left>c.geo.window.size.width-d.size.width&&(d.coord.left=c.geo.window.size.width-d.size.width),d.coord.left<0&&(d.coord.left=0)),e.__sideChange(h,d.side),c.tooltipClone=h[0],c.tooltipParent=e.__instance.option("parent").parent[0],c.mode=d.mode,c.whole=d.whole,c.origin=e.__instance._$origin[0],c.tooltip=e.__instance._$tooltip[0],delete d.container,delete d.fits,delete d.mode,delete d.outerSize,delete d.whole,d.distance=d.distance.horizontal||d.distance.vertical;var l=a.extend(!0,{},d);if(e.__instance._trigger({edit:function(a){d=a},event:b,helper:c,position:l,type:"position"}),e.__options.functionPosition){var m=e.__options.functionPosition.call(e,e.__instance,c,l);m&&(d=m)}i.destroy();var n,o;"top"==d.side||"bottom"==d.side?(n={prop:"left",val:d.target-d.coord.left},o=d.size.width-this.__options.minIntersection):(n={prop:"top",val:d.target-d.coord.top},o=d.size.height-this.__options.minIntersection),n.val<this.__options.minIntersection?n.val=this.__options.minIntersection:n.val>o&&(n.val=o);var p;p=c.geo.origin.fixedLineage?c.geo.origin.windowOffset:{left:c.geo.origin.windowOffset.left+c.geo.window.scroll.left,top:c.geo.origin.windowOffset.top+c.geo.window.scroll.top},d.coord={left:p.left+(d.coord.left-c.geo.origin.windowOffset.left),top:p.top+(d.coord.top-c.geo.origin.windowOffset.top)},e.__sideChange(e.__instance._$tooltip,d.side),c.geo.origin.fixedLineage?e.__instance._$tooltip.css("position","fixed"):e.__instance._$tooltip.css("position",""),e.__instance._$tooltip.css({left:d.coord.left,top:d.coord.top,height:d.size.height,width:d.size.width}).find(".tooltipster-arrow").css({left:"",top:""}).css(n.prop,n.val),e.__instance._$tooltip.appendTo(e.__instance.option("parent")),e.__instance._trigger({type:"repositioned",event:b,position:d})},__sideChange:function(a,b){a.removeClass("tooltipster-bottom").removeClass("tooltipster-left").removeClass("tooltipster-right").removeClass("tooltipster-top").addClass("tooltipster-"+b)},__targetFind:function(a){var b={},c=this.__instance._$origin[0].getClientRects();if(c.length>1){var d=this.__instance._$origin.css("opacity");1==d&&(this.__instance._$origin.css("opacity",.99),c=this.__instance._$origin[0].getClientRects(),this.__instance._$origin.css("opacity",1))}if(c.length<2)b.top=Math.floor(a.geo.origin.windowOffset.left+a.geo.origin.size.width/2),b.bottom=b.top,b.left=Math.floor(a.geo.origin.windowOffset.top+a.geo.origin.size.height/2),b.right=b.left;else{var e=c[0];b.top=Math.floor(e.left+(e.right-e.left)/2),e=c.length>2?c[Math.ceil(c.length/2)-1]:c[0],b.right=Math.floor(e.top+(e.bottom-e.top)/2),e=c[c.length-1],b.bottom=Math.floor(e.left+(e.right-e.left)/2),e=c.length>2?c[Math.ceil((c.length+1)/2)-1]:c[c.length-1],b.left=Math.floor(e.top+(e.bottom-e.top)/2)}return b}}}),a});
-},{"jquery":4}]},{},[2]);
+},{"jquery":6}]},{},[3]);
