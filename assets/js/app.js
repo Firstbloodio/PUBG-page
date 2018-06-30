@@ -31,7 +31,7 @@ $(document).ready(function () {
     ladderData.getData(6565);
     window.setInterval(function(){
         ladderData.getData(6565);
-    }, 12000);
+    }, 30000);
     
 
     // Execute on load
