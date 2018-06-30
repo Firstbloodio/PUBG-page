@@ -77,8 +77,8 @@ module.exports=[
     "link": "assets/css/images/team_logos/IMG_Logo_fable.png"
   },
   {
-    "name": "",
-    "link": "assets/css/images/team_logos/IMG_Logo_more.png"
+    "name": "The Happy Campers",
+    "link": "assets/css/images/team_logos/IMG_Logo_THC.png"
   }
   /*
   {
