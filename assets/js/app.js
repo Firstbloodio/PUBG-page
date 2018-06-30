@@ -28,9 +28,9 @@ $(document).ready(function () {
         }
     }
 
-    ladderData.getData(6627);
+    ladderData.getData(6565);
     window.setInterval(function(){
-        ladderData.getData(6627);
+        ladderData.getData(6565);
     }, 12000);
     
 
