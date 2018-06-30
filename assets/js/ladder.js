@@ -7,7 +7,7 @@ module.exports = ladderData = {
       'Authorization': 'Bearer eh4Ffs-TzraPRkIoNocoqKUFIpCV4GLjOuBfrMA5'
     });
     
-    fetch('https://api.mainline.gg/v1/events/scores-by-match?id='+ id,
+    fetch('https://api.mainline.gg/v1/events/scores-by-event?id='+ id,
       { 
         mode: 'cors',
         headers: headers

@@ -966,9 +966,9 @@ $(document).ready(function () {
         }
     }
 
-    ladderData.getData(6627);
+    ladderData.getData(6565);
     window.setInterval(function(){
-        ladderData.getData(6627);
+        ladderData.getData(6565);
     }, 12000);
     
 
@@ -1086,7 +1086,7 @@ module.exports = ladderData = {
       'Authorization': 'Bearer eh4Ffs-TzraPRkIoNocoqKUFIpCV4GLjOuBfrMA5'
     });
     
-    fetch('https://api.mainline.gg/v1/events/scores-by-match?id='+ id,
+    fetch('https://api.mainline.gg/v1/events/scores-by-event?id='+ id,
       { 
         mode: 'cors',
         headers: headers
