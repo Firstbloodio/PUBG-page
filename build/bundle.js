@@ -966,7 +966,11 @@ $(document).ready(function () {
         }
     }
 
-    let data = ladderData.getData(6627);
+    ladderData.getData(6627);
+    window.setInterval(function(){
+        ladderData.getData(6627);
+    }, 12000);
+    
 
     // Execute on load
     checkWidth();
