@@ -268,22 +268,28 @@ h2 {
 }
 
 .headline-date {
-    line-height: 16px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
     font-size: 20px;
     letter-spacing: 1px;
-
+    line-height: 24px;
 }
 
 .headline-text {
-    font-family: Korolev;
-    font-size: 48px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 46px;
     font-weight: bold;
-    letter-spacing: 3px;
-    text-shadow: 2px 2px #140125;
+    letter-spacing: 1.15px;
+    line-height: 56px;
+    text-shadow: 2px 2px 0 0 #140125;
 }
 
 .headline-description {
+    color: #FFFFFF;
+    font-family: "Open Sans";
     font-size: 18px;
+    letter-spacing: 0.75px;
     line-height: 20px;
 }
 
@@ -400,7 +406,7 @@ a.action-button {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-width: 846px;
+    min-width: 320px;
 }
 
 .title-mobile {
@@ -599,6 +605,7 @@ a.action-button {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
+    font-family: "Open Sans";
 }
 
 .twitter-icon {
@@ -637,6 +644,7 @@ a.action-button {
     width: 540px;
     padding: 0 35px;
     max-height: 60px;
+    font-family: "Open Sans";
 }
 
 /* TEAMS */
@@ -666,8 +674,128 @@ a.action-button {
     object-fit: contain;
 }
 
+/*ladder part*/
 
+.ladder {
+    width: 100%;
+}
 
+.ladder__header {
+    display: grid;
+    grid-template-columns: 10% 1fr 10% 10% 3%;
+    color: rgba(255,255,255,0.6);
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0.23px;
+    line-height: 19px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 15px 0;
+}
+@media only screen and (max-width: 600px) {
+    .ladder__header {
+        grid-template-columns: 15% 1fr 10% 10% 3%;
+    }
+    .ladder__header > * {
+        text-align: center;
+    }
+}
 
+.ladder__body {
+    padding-bottom: 82px;
+}
 
+.ladder__item {
+    border-bottom: 1px solid rgba(255,255,255,0.1);    
+}
 
+.ladder__row {
+    display: grid;
+    grid-template-columns: 10% 1fr 10% 10% 3%;
+}
+
+@media only screen and (max-width: 600px) {
+    .ladder__row {
+        grid-template-columns: 15% 1fr 10% 10% 3%;
+    }
+}
+
+.ladder__row > * {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.23px;
+    line-height: 19px;
+}
+
+.ladder__image {
+    width: 48px;
+    height: auto;
+    margin-right: 17px;
+}
+
+.ladder__team {
+    
+}
+
+.ladder__players {
+    display: none;
+}
+
+.ladder__player {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10% 1fr 10% 10% 3%;    
+}
+
+@media only screen and (max-width: 600px) {
+    .ladder__player {
+        grid-template-columns: 15% 1fr 10% 10% 3%;
+    }
+}
+
+.ladder__player > *{
+    height: 68px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.23px;
+    line-height: 19px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.ladder__trigger {
+    display: block;
+    height: 8px;
+    width: 13px;
+}
+
+.ladder__index {
+    padding-left: 15px;
+}
+
+.arrow {
+    display: block;
+    background: url('./images/Icon_ArrowUp.svg');
+    height: 8px;
+    width: 13px;
+    transform: scaleY(-1) rotate(180deg);
+}
+
+.ladder__item.active {
+    background-color: rgba(255,255,255,0.05);    
+}
+
+.active .ladder__players {
+    display: block;
+}
+
+.active .arrow {
+    transform: scaleY(-1);
+}
